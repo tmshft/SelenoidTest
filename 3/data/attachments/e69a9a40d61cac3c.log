@@ -1,0 +1,1253 @@
+2021-05-05T19:04:39.527363918Z E: [pulseaudio] client-conf-x11.c: xcb_connection_has_error() returned true
+2021-05-05T19:04:39.611551428Z xcb_connection_has_error() returned true
+2021-05-05T19:04:39.618628582Z 21
+2021-05-05T19:04:39.625457821Z Waiting X server...
+2021-05-05T19:04:39.662148479Z 2021/05/05 19:04:39 [INIT] [Listening on :7070]
+2021-05-05T19:04:39.724721099Z Logging to: /dev/null
+2021-05-05T19:04:39.737562424Z Waiting X server...
+2021-05-05T19:04:39.840055310Z Waiting X server...
+2021-05-05T19:04:39.953808719Z 
+2021-05-05T19:04:39.953831520Z  --- x11vnc loop: 1 ---
+2021-05-05T19:04:39.953835620Z 
+2021-05-05T19:04:39.956591897Z Starting ChromeDriver 88.0.4324.27 (6347fe8bf1e48bd0c54d07dc55ca011cf40861c9-refs/branch-heads/4324@{#450}) on port 4444
+2021-05-05T19:04:39.956608698Z All remote connections are allowed. Use an allowlist instead!
+2021-05-05T19:04:39.956612799Z Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+2021-05-05T19:04:39.959912111Z ChromeDriver was started successfully.
+2021-05-05T19:04:39.971777673Z [1620241479.972][INFO]: [f6a2d4b762d805b532d5d203d9eee90a] COMMAND InitSession {
+2021-05-05T19:04:39.971792174Z    "capabilities": {
+2021-05-05T19:04:39.971796474Z       "firstMatch": [ {
+2021-05-05T19:04:39.971800375Z          "browserName": "chrome",
+2021-05-05T19:04:39.971804275Z          "goog:chromeOptions": {
+2021-05-05T19:04:39.971808075Z             "args": [  ],
+2021-05-05T19:04:39.971811775Z             "extensions": [  ],
+2021-05-05T19:04:39.971815276Z             "prefs": {
+2021-05-05T19:04:39.971818876Z                "download.default_directory": "/home/selenium/Downloads",
+2021-05-05T19:04:39.971822976Z                "download.prompt_for_download": false,
+2021-05-05T19:04:39.971826676Z                "profile.default_content_settings.popups": 0
+2021-05-05T19:04:39.971830377Z             }
+2021-05-05T19:04:39.971833777Z          }
+2021-05-05T19:04:39.971837077Z       } ]
+2021-05-05T19:04:39.971840377Z    },
+2021-05-05T19:04:39.971843777Z    "desiredCapabilities": {
+2021-05-05T19:04:39.971847278Z       "browserName": "chrome",
+2021-05-05T19:04:39.971850978Z       "enableLog": true,
+2021-05-05T19:04:39.971854678Z       "enableVNC": true,
+2021-05-05T19:04:39.971858278Z       "enableVideo": true,
+2021-05-05T19:04:39.971861879Z       "goog:chromeOptions": {
+2021-05-05T19:04:39.971865379Z          "args": [  ],
+2021-05-05T19:04:39.971868979Z          "extensions": [  ],
+2021-05-05T19:04:39.971872379Z          "prefs": {
+2021-05-05T19:04:39.971888480Z             "download.default_directory": "/home/selenium/Downloads",
+2021-05-05T19:04:39.971892281Z             "download.prompt_for_download": false,
+2021-05-05T19:04:39.971895581Z             "profile.default_content_settings.popups": 0
+2021-05-05T19:04:39.971898781Z          }
+2021-05-05T19:04:39.971901781Z       },
+2021-05-05T19:04:39.971904781Z       "videoName": "R6wbKKSEa0.mp4"
+2021-05-05T19:04:39.971908182Z    }
+2021-05-05T19:04:39.971911282Z }
+2021-05-05T19:04:39.972365611Z [1620241479.972][INFO]: Populating Preferences file: {
+2021-05-05T19:04:39.972372511Z    "alternate_error_pages": {
+2021-05-05T19:04:39.972376012Z       "enabled": false
+2021-05-05T19:04:39.972379212Z    },
+2021-05-05T19:04:39.972382212Z    "autofill": {
+2021-05-05T19:04:39.972385312Z       "enabled": false
+2021-05-05T19:04:39.972388512Z    },
+2021-05-05T19:04:39.972391713Z    "browser": {
+2021-05-05T19:04:39.972394813Z       "check_default_browser": false
+2021-05-05T19:04:39.972398113Z    },
+2021-05-05T19:04:39.972401013Z    "distribution": {
+2021-05-05T19:04:39.972404013Z       "import_bookmarks": false,
+2021-05-05T19:04:39.972407114Z       "import_history": false,
+2021-05-05T19:04:39.972410314Z       "import_search_engine": false,
+2021-05-05T19:04:39.972413514Z       "make_chrome_default_for_user": false,
+2021-05-05T19:04:39.972416814Z       "skip_first_run_ui": true
+2021-05-05T19:04:39.972419814Z    },
+2021-05-05T19:04:39.972422715Z    "dns_prefetching": {
+2021-05-05T19:04:39.972425715Z       "enabled": false
+2021-05-05T19:04:39.972428715Z    },
+2021-05-05T19:04:39.972431715Z    "download": {
+2021-05-05T19:04:39.972435815Z       "default_directory": "/home/selenium/Downloads",
+2021-05-05T19:04:39.972439116Z       "prompt_for_download": false
+2021-05-05T19:04:39.972442316Z    },
+2021-05-05T19:04:39.972445216Z    "profile": {
+2021-05-05T19:04:39.972448216Z       "content_settings": {
+2021-05-05T19:04:39.972451216Z          "pattern_pairs": {
+2021-05-05T19:04:39.972454317Z             "https://*,*": {
+2021-05-05T19:04:39.972457417Z                "media-stream": {
+2021-05-05T19:04:39.972460417Z                   "audio": "Default",
+2021-05-05T19:04:39.972463617Z                   "video": "Default"
+2021-05-05T19:04:39.972467017Z                }
+2021-05-05T19:04:39.972470018Z             }
+2021-05-05T19:04:39.972472918Z          }
+2021-05-05T19:04:39.972487119Z       },
+2021-05-05T19:04:39.972490219Z       "default_content_setting_values": {
+2021-05-05T19:04:39.972493419Z          "geolocation": 1
+2021-05-05T19:04:39.972496619Z       },
+2021-05-05T19:04:39.972499520Z       "default_content_settings": {
+2021-05-05T19:04:39.972502720Z          "geolocation": 1,
+2021-05-05T19:04:39.972505820Z          "mouselock": 1,
+2021-05-05T19:04:39.972508820Z          "notifications": 1,
+2021-05-05T19:04:39.972511920Z          "popups": 0,
+2021-05-05T19:04:39.972515021Z          "ppapi-broker": 1
+2021-05-05T19:04:39.972518121Z       },
+2021-05-05T19:04:39.972521021Z       "password_manager_enabled": false
+2021-05-05T19:04:39.972524121Z    },
+2021-05-05T19:04:39.972527121Z    "safebrowsing": {
+2021-05-05T19:04:39.972530121Z       "enabled": false
+2021-05-05T19:04:39.972533222Z    },
+2021-05-05T19:04:39.972536122Z    "search": {
+2021-05-05T19:04:39.972539322Z       "suggest_enabled": false
+2021-05-05T19:04:39.972542422Z    },
+2021-05-05T19:04:39.972545522Z    "translate": {
+2021-05-05T19:04:39.972548823Z       "enabled": false
+2021-05-05T19:04:39.972551923Z    }
+2021-05-05T19:04:39.972554923Z }
+2021-05-05T19:04:39.972560523Z [1620241479.972][INFO]: Populating Local State file: {
+2021-05-05T19:04:39.972563824Z    "background_mode": {
+2021-05-05T19:04:39.972567024Z       "enabled": false
+2021-05-05T19:04:39.972570024Z    },
+2021-05-05T19:04:39.972572924Z    "ssl": {
+2021-05-05T19:04:39.972576024Z       "rev_checking": {
+2021-05-05T19:04:39.972579025Z          "enabled": false
+2021-05-05T19:04:39.972582225Z       }
+2021-05-05T19:04:39.972585125Z    }
+2021-05-05T19:04:39.972588025Z }
+2021-05-05T19:04:39.972721034Z [1620241479.973][INFO]: Launching chrome: /usr/bin/google-chrome --disable-background-networking --disable-client-side-phishing-detection --disable-default-apps --disable-hang-monitor --disable-popup-blocking --disable-prompt-on-repost --disable-sync --enable-automation --enable-blink-features=ShadowDOMV0 --enable-logging --log-level=0 --no-first-run --no-service-autorun --password-store=basic --remote-debugging-port=0 --test-type=webdriver --use-mock-keychain --user-data-dir=/tmp/.com.google.Chrome.yaarjW data:,
+2021-05-05T19:04:40.243325421Z [79:107:0505/190440.243111:ERROR:bus.cc(393)] Failed to connect to the bus: Failed to connect to socket /var/run/dbus/system_bus_socket: No such file or directory
+2021-05-05T19:04:40.302397316Z [79:118:0505/190440.302279:ERROR:bus.cc(393)] Failed to connect to the bus: Address does not contain a colon
+2021-05-05T19:04:40.302486822Z [79:118:0505/190440.302323:ERROR:bus.cc(393)] Failed to connect to the bus: Address does not contain a colon
+2021-05-05T19:04:40.314363485Z [79:118:0505/190440.314196:ERROR:bus.cc(393)] Failed to connect to the bus: Address does not contain a colon
+2021-05-05T19:04:40.314381986Z [79:118:0505/190440.314242:ERROR:bus.cc(393)] Failed to connect to the bus: Address does not contain a colon
+2021-05-05T19:04:40.319536718Z 
+2021-05-05T19:04:40.319548418Z DevTools listening on ws://127.0.0.1:42733/devtools/browser/180eafed-bf46-4567-bd7c-8ef5c840f37a
+2021-05-05T19:04:40.324653946Z [1620241480.325][DEBUG]: DevTools HTTP Request: http://localhost:42733/json/version
+2021-05-05T19:04:40.386284506Z [1620241480.386][DEBUG]: DevTools HTTP Response: {
+2021-05-05T19:04:40.386303608Z    "Browser": "Chrome/88.0.4324.96",
+2021-05-05T19:04:40.386307608Z    "Protocol-Version": "1.3",
+2021-05-05T19:04:40.386311308Z    "User-Agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.96 Safari/537.36",
+2021-05-05T19:04:40.386314908Z    "V8-Version": "8.8.278.14",
+2021-05-05T19:04:40.386317908Z    "WebKit-Version": "537.36 (@68dba2d8a0b149a1d3afac56fa74648032bcf46b)",
+2021-05-05T19:04:40.386321009Z    "webSocketDebuggerUrl": "ws://localhost:42733/devtools/browser/180eafed-bf46-4567-bd7c-8ef5c840f37a"
+2021-05-05T19:04:40.386324409Z }
+2021-05-05T19:04:40.386327209Z 
+2021-05-05T19:04:40.386339410Z [1620241480.386][DEBUG]: DevTools HTTP Request: http://localhost:42733/json/list
+2021-05-05T19:04:40.411007095Z [1620241480.411][DEBUG]: DevTools HTTP Response: [ {
+2021-05-05T19:04:40.411025496Z    "description": "",
+2021-05-05T19:04:40.411029496Z    "devtoolsFrontendUrl": "/devtools/inspector.html?ws=localhost:42733/devtools/page/B2CD81454F214ABA412D6157B0952D27",
+2021-05-05T19:04:40.411033097Z    "id": "B2CD81454F214ABA412D6157B0952D27",
+2021-05-05T19:04:40.411036497Z    "title": "",
+2021-05-05T19:04:40.411039497Z    "type": "page",
+2021-05-05T19:04:40.411042497Z    "url": "data:,",
+2021-05-05T19:04:40.411045397Z    "webSocketDebuggerUrl": "ws://localhost:42733/devtools/page/B2CD81454F214ABA412D6157B0952D27"
+2021-05-05T19:04:40.411048598Z } ]
+2021-05-05T19:04:40.411051498Z 
+2021-05-05T19:04:40.411123502Z [1620241480.411][DEBUG]: DevTools HTTP Request: http://localhost:42733/json/list
+2021-05-05T19:04:40.415430579Z [1620241480.415][DEBUG]: DevTools HTTP Response: [ {
+2021-05-05T19:04:40.415446980Z    "description": "",
+2021-05-05T19:04:40.415451280Z    "devtoolsFrontendUrl": "/devtools/inspector.html?ws=localhost:42733/devtools/page/B2CD81454F214ABA412D6157B0952D27",
+2021-05-05T19:04:40.415455181Z    "id": "B2CD81454F214ABA412D6157B0952D27",
+2021-05-05T19:04:40.415458581Z    "title": "",
+2021-05-05T19:04:40.415461881Z    "type": "page",
+2021-05-05T19:04:40.415465081Z    "url": "data:,",
+2021-05-05T19:04:40.415475482Z    "webSocketDebuggerUrl": "ws://localhost:42733/devtools/page/B2CD81454F214ABA412D6157B0952D27"
+2021-05-05T19:04:40.415479082Z } ]
+2021-05-05T19:04:40.415482082Z 
+2021-05-05T19:04:40.416019917Z [1620241480.416][INFO]: resolved localhost to ["127.0.0.1","172.17.0.3","::1"]
+2021-05-05T19:04:40.416461945Z [79:167:0505/190440.416368:ERROR:bus.cc(393)] Failed to connect to the bus: Failed to connect to socket /var/run/dbus/system_bus_socket: No such file or directory
+2021-05-05T19:04:40.416855571Z [79:167:0505/190440.416778:ERROR:bus.cc(393)] Failed to connect to the bus: Failed to connect to socket /var/run/dbus/system_bus_socket: No such file or directory
+2021-05-05T19:04:40.416927075Z [79:167:0505/190440.416868:ERROR:bus.cc(393)] Failed to connect to the bus: Failed to connect to socket /var/run/dbus/system_bus_socket: No such file or directory
+2021-05-05T19:04:40.417400506Z [79:167:0505/190440.416970:ERROR:bus.cc(393)] Failed to connect to the bus: Failed to connect to socket /var/run/dbus/system_bus_socket: No such file or directory
+2021-05-05T19:04:40.417495212Z [79:167:0505/190440.417435:ERROR:bus.cc(393)] Failed to connect to the bus: Failed to connect to socket /var/run/dbus/system_bus_socket: No such file or directory
+2021-05-05T19:04:40.419197621Z [1620241480.419][DEBUG]: DevTools WebSocket Command: Page.addScriptToEvaluateOnNewDocument (id=1) B2CD81454F214ABA412D6157B0952D27 {
+2021-05-05T19:04:40.419211122Z    "source": "(function () {window.cdc_adoQpoasnfa76pfcZLmcfl_Array = window.Array;window.cdc_adoQpoasnfa76pfcZLmcfl_Promise = window.Promise;window.cdc_adoQpoasnfa76pfcZLmcfl_Symbol = window.Symbol;}) ();"
+2021-05-05T19:04:40.419228923Z }
+2021-05-05T19:04:40.419425636Z [1620241480.419][DEBUG]: DevTools WebSocket Command: Runtime.evaluate (id=2) B2CD81454F214ABA412D6157B0952D27 {
+2021-05-05T19:04:40.419436736Z    "expression": "(function () {window.cdc_adoQpoasnfa76pfcZLmcfl_Array = window.Array;window.cdc_adoQpoasnfa76pfcZLmcfl_Promise = window.Promise;window.cdc_adoQpoasnfa76pfcZLmcfl_Symbol = window.Symbol;}) ();"
+2021-05-05T19:04:40.419440537Z }
+2021-05-05T19:04:40.419561745Z [1620241480.420][DEBUG]: DevTools WebSocket Command: Log.enable (id=3) B2CD81454F214ABA412D6157B0952D27 {
+2021-05-05T19:04:40.419570845Z 
+2021-05-05T19:04:40.419573845Z }
+2021-05-05T19:04:40.419722455Z [1620241480.420][DEBUG]: DevTools WebSocket Command: DOM.getDocument (id=4) B2CD81454F214ABA412D6157B0952D27 {
+2021-05-05T19:04:40.419728055Z 
+2021-05-05T19:04:40.419730955Z }
+2021-05-05T19:04:40.419864264Z [1620241480.420][DEBUG]: DevTools WebSocket Command: Target.setAutoAttach (id=5) B2CD81454F214ABA412D6157B0952D27 {
+2021-05-05T19:04:40.419869464Z    "autoAttach": true,
+2021-05-05T19:04:40.419872364Z    "flatten": true,
+2021-05-05T19:04:40.419875265Z    "waitForDebuggerOnStart": false
+2021-05-05T19:04:40.419878265Z }
+2021-05-05T19:04:40.419929668Z [1620241480.420][DEBUG]: DevTools WebSocket Command: Page.enable (id=6) B2CD81454F214ABA412D6157B0952D27 {
+2021-05-05T19:04:40.419940869Z 
+2021-05-05T19:04:40.419943869Z }
+2021-05-05T19:04:40.420012473Z [1620241480.420][DEBUG]: DevTools WebSocket Command: Page.enable (id=7) B2CD81454F214ABA412D6157B0952D27 {
+2021-05-05T19:04:40.420017174Z 
+2021-05-05T19:04:40.420019974Z }
+2021-05-05T19:04:40.452466359Z [120:120:0505/190440.452266:ERROR:sandbox_linux.cc(374)] InitializeSandbox() called with multiple threads in process gpu-process.
+2021-05-05T19:04:40.454894715Z  --- x11vnc loop: waiting for: 174
+2021-05-05T19:04:40.454907116Z 
+2021-05-05T19:04:40.465319385Z [1620241480.465][DEBUG]: DevTools WebSocket Response: Page.addScriptToEvaluateOnNewDocument (id=1) B2CD81454F214ABA412D6157B0952D27 {
+2021-05-05T19:04:40.465335386Z    "identifier": "1"
+2021-05-05T19:04:40.465339686Z }
+2021-05-05T19:04:40.467379017Z [1620241480.467][DEBUG]: DevTools WebSocket Response: Runtime.evaluate (id=2) B2CD81454F214ABA412D6157B0952D27 {
+2021-05-05T19:04:40.467392418Z    "result": {
+2021-05-05T19:04:40.467396318Z       "type": "undefined"
+2021-05-05T19:04:40.467400118Z    }
+2021-05-05T19:04:40.467403118Z }
+2021-05-05T19:04:40.467626333Z [1620241480.468][DEBUG]: DevTools WebSocket Response: Log.enable (id=3) B2CD81454F214ABA412D6157B0952D27 {
+2021-05-05T19:04:40.467633933Z 
+2021-05-05T19:04:40.467637033Z }
+2021-05-05T19:04:40.467984756Z [1620241480.468][DEBUG]: DevTools WebSocket Response: DOM.getDocument (id=4) B2CD81454F214ABA412D6157B0952D27 {
+2021-05-05T19:04:40.468428484Z    "root": {
+2021-05-05T19:04:40.468436885Z       "backendNodeId": 1,
+2021-05-05T19:04:40.468440385Z       "baseURL": "about:blank",
+2021-05-05T19:04:40.468443685Z       "childNodeCount": 1,
+2021-05-05T19:04:40.468446986Z       "children": [ {
+2021-05-05T19:04:40.468450086Z          "attributes": [  ],
+2021-05-05T19:04:40.468453386Z          "backendNodeId": 2,
+2021-05-05T19:04:40.468456486Z          "childNodeCount": 2,
+2021-05-05T19:04:40.468459486Z          "children": [ {
+2021-05-05T19:04:40.468462487Z             "attributes": [  ],
+2021-05-05T19:04:40.468465687Z             "backendNodeId": 3,
+2021-05-05T19:04:40.468468687Z             "childNodeCount": 0,
+2021-05-05T19:04:40.468471787Z             "localName": "head",
+2021-05-05T19:04:40.468482588Z             "nodeId": 3,
+2021-05-05T19:04:40.468486188Z             "nodeName": "HEAD",
+2021-05-05T19:04:40.468489488Z             "nodeType": 1,
+2021-05-05T19:04:40.468492488Z             "nodeValue": "",
+2021-05-05T19:04:40.468495589Z             "parentId": 2
+2021-05-05T19:04:40.468506989Z          }, {
+2021-05-05T19:04:40.468510090Z             "attributes": [  ],
+2021-05-05T19:04:40.468513290Z             "backendNodeId": 4,
+2021-05-05T19:04:40.468516290Z             "childNodeCount": 0,
+2021-05-05T19:04:40.468519390Z             "localName": "body",
+2021-05-05T19:04:40.468522490Z             "nodeId": 4,
+2021-05-05T19:04:40.468525491Z             "nodeName": "BODY",
+2021-05-05T19:04:40.468528591Z             "nodeType": 1,
+2021-05-05T19:04:40.468531691Z             "nodeValue": "",
+2021-05-05T19:04:40.468534791Z             "parentId": 2
+2021-05-05T19:04:40.468537791Z          } ],
+2021-05-05T19:04:40.468540792Z          "frameId": "B2CD81454F214ABA412D6157B0952D27",
+2021-05-05T19:04:40.468544092Z          "localName": "html",
+2021-05-05T19:04:40.468547192Z          "nodeId": 2,
+2021-05-05T19:04:40.468550192Z          "nodeName": "HTML",
+2021-05-05T19:04:40.468553292Z          "nodeType": 1,
+2021-05-05T19:04:40.468556393Z          "nodeValue": "",
+2021-05-05T19:04:40.468559393Z          "parentId": 1
+2021-05-05T19:04:40.468562493Z       } ],
+2021-05-05T19:04:40.468565493Z       "documentURL": "",
+2021-05-05T19:04:40.468568593Z       "localName": "",
+2021-05-05T19:04:40.468571594Z       "nodeId": 1,
+2021-05-05T19:04:40.468574594Z       "nodeName": "#document",
+2021-05-05T19:04:40.468577694Z       "nodeType": 9,
+2021-05-05T19:04:40.468580894Z       "nodeValue": "",
+2021-05-05T19:04:40.468583994Z       "xmlVersion": ""
+2021-05-05T19:04:40.468587095Z    }
+2021-05-05T19:04:40.468590095Z }
+2021-05-05T19:04:40.468594895Z [1620241480.468][DEBUG]: DevTools WebSocket Response: Target.setAutoAttach (id=5) B2CD81454F214ABA412D6157B0952D27 {
+2021-05-05T19:04:40.468598295Z 
+2021-05-05T19:04:40.468601195Z }
+2021-05-05T19:04:40.468604196Z [1620241480.468][DEBUG]: DevTools WebSocket Response: Page.enable (id=6) B2CD81454F214ABA412D6157B0952D27 {
+2021-05-05T19:04:40.468607496Z 
+2021-05-05T19:04:40.468610796Z }
+2021-05-05T19:04:40.468613996Z [1620241480.468][DEBUG]: DevTools WebSocket Response: Page.enable (id=7) B2CD81454F214ABA412D6157B0952D27 {
+2021-05-05T19:04:40.468617296Z 
+2021-05-05T19:04:40.468620297Z }
+2021-05-05T19:04:40.468656399Z [1620241480.468][DEBUG]: DevTools WebSocket Command: Runtime.enable (id=8) B2CD81454F214ABA412D6157B0952D27 {
+2021-05-05T19:04:40.468660599Z 
+2021-05-05T19:04:40.468663499Z }
+2021-05-05T19:04:40.468711302Z [1620241480.469][DEBUG]: DevTools WebSocket Event: Page.frameStartedLoading B2CD81454F214ABA412D6157B0952D27 {
+2021-05-05T19:04:40.468720803Z    "frameId": "B2CD81454F214ABA412D6157B0952D27"
+2021-05-05T19:04:40.468724203Z }
+2021-05-05T19:04:40.482589794Z [1620241480.483][DEBUG]: DevTools WebSocket Event: Page.frameNavigated B2CD81454F214ABA412D6157B0952D27 {
+2021-05-05T19:04:40.482602695Z    "frame": {
+2021-05-05T19:04:40.482606195Z       "adFrameType": "none",
+2021-05-05T19:04:40.482609495Z       "crossOriginIsolatedContextType": "NotIsolated",
+2021-05-05T19:04:40.482612796Z       "domainAndRegistry": "",
+2021-05-05T19:04:40.482615996Z       "gatedAPIFeatures": [ "SharedArrayBuffers", "SharedArrayBuffersTransferAllowed" ],
+2021-05-05T19:04:40.482619396Z       "id": "B2CD81454F214ABA412D6157B0952D27",
+2021-05-05T19:04:40.482622396Z       "loaderId": "966C95129FD919036E4EBD4A1BA15A82",
+2021-05-05T19:04:40.482625397Z       "mimeType": "text/plain",
+2021-05-05T19:04:40.482628297Z       "secureContextType": "InsecureScheme",
+2021-05-05T19:04:40.482631497Z       "securityOrigin": "://",
+2021-05-05T19:04:40.482634497Z       "url": "data:,"
+2021-05-05T19:04:40.482637397Z    }
+2021-05-05T19:04:40.482640197Z }
+2021-05-05T19:04:40.482794107Z [1620241480.483][DEBUG]: DevTools WebSocket Event: DOM.documentUpdated B2CD81454F214ABA412D6157B0952D27 {
+2021-05-05T19:04:40.482800108Z 
+2021-05-05T19:04:40.482803008Z }
+2021-05-05T19:04:40.482831010Z [1620241480.483][DEBUG]: DevTools WebSocket Command: DOM.getDocument (id=9) B2CD81454F214ABA412D6157B0952D27 {
+2021-05-05T19:04:40.482835310Z 
+2021-05-05T19:04:40.482838110Z }
+2021-05-05T19:04:40.516341163Z [1620241480.516][DEBUG]: DevTools WebSocket Event: Runtime.executionContextCreated B2CD81454F214ABA412D6157B0952D27 {
+2021-05-05T19:04:40.516369965Z    "context": {
+2021-05-05T19:04:40.516373965Z       "auxData": {
+2021-05-05T19:04:40.516377265Z          "frameId": "B2CD81454F214ABA412D6157B0952D27",
+2021-05-05T19:04:40.516381065Z          "isDefault": true,
+2021-05-05T19:04:40.516386266Z          "type": "default"
+2021-05-05T19:04:40.516389666Z       },
+2021-05-05T19:04:40.516392666Z       "id": 2,
+2021-05-05T19:04:40.516395766Z       "name": "",
+2021-05-05T19:04:40.516398967Z       "origin": "://"
+2021-05-05T19:04:40.516402267Z    }
+2021-05-05T19:04:40.516405267Z }
+2021-05-05T19:04:40.516522174Z [1620241480.516][DEBUG]: DevTools WebSocket Response: Runtime.enable (id=8) B2CD81454F214ABA412D6157B0952D27 {
+2021-05-05T19:04:40.516528775Z 
+2021-05-05T19:04:40.516531875Z }
+2021-05-05T19:04:40.516596579Z [1620241480.517][DEBUG]: DevTools WebSocket Command: Page.enable (id=10) B2CD81454F214ABA412D6157B0952D27 {
+2021-05-05T19:04:40.516623881Z 
+2021-05-05T19:04:40.516627381Z }
+2021-05-05T19:04:40.520715244Z [1620241480.521][DEBUG]: DevTools WebSocket Event: Page.loadEventFired B2CD81454F214ABA412D6157B0952D27 {
+2021-05-05T19:04:40.520731145Z    "timestamp": 123.862172
+2021-05-05T19:04:40.520735045Z }
+2021-05-05T19:04:40.520841352Z [1620241480.521][DEBUG]: DevTools WebSocket Command: Runtime.evaluate (id=11) B2CD81454F214ABA412D6157B0952D27 {
+2021-05-05T19:04:40.520847652Z    "awaitPromise": false,
+2021-05-05T19:04:40.520851053Z    "expression": "document.readyState",
+2021-05-05T19:04:40.520854553Z    "returnByValue": true
+2021-05-05T19:04:40.520857653Z }
+2021-05-05T19:04:40.521129170Z [1620241480.521][DEBUG]: DevTools WebSocket Event: Page.frameStoppedLoading B2CD81454F214ABA412D6157B0952D27 {
+2021-05-05T19:04:40.521138671Z    "frameId": "B2CD81454F214ABA412D6157B0952D27"
+2021-05-05T19:04:40.521142071Z }
+2021-05-05T19:04:40.521207176Z [1620241480.521][DEBUG]: DevTools WebSocket Event: DOM.documentUpdated B2CD81454F214ABA412D6157B0952D27 {
+2021-05-05T19:04:40.521213176Z 
+2021-05-05T19:04:40.521216276Z }
+2021-05-05T19:04:40.521293381Z [1620241480.521][DEBUG]: DevTools WebSocket Command: DOM.getDocument (id=12) B2CD81454F214ABA412D6157B0952D27 {
+2021-05-05T19:04:40.521298481Z 
+2021-05-05T19:04:40.521301382Z }
+2021-05-05T19:04:40.521461292Z [1620241480.521][DEBUG]: DevTools WebSocket Event: Page.domContentEventFired B2CD81454F214ABA412D6157B0952D27 {
+2021-05-05T19:04:40.521468392Z    "timestamp": 123.863162
+2021-05-05T19:04:40.521471592Z }
+2021-05-05T19:04:40.521525096Z [1620241480.522][DEBUG]: DevTools WebSocket Event: Page.frameResized B2CD81454F214ABA412D6157B0952D27 {
+2021-05-05T19:04:40.521530096Z 
+2021-05-05T19:04:40.521532896Z }
+2021-05-05T19:04:40.521689807Z [1620241480.522][DEBUG]: DevTools WebSocket Response: DOM.getDocument (id=9) B2CD81454F214ABA412D6157B0952D27 {
+2021-05-05T19:04:40.521695707Z    "root": {
+2021-05-05T19:04:40.521698707Z       "backendNodeId": 5,
+2021-05-05T19:04:40.521701707Z       "baseURL": "data:,",
+2021-05-05T19:04:40.521704707Z       "childNodeCount": 1,
+2021-05-05T19:04:40.521707808Z       "children": [ {
+2021-05-05T19:04:40.521710608Z          "attributes": [  ],
+2021-05-05T19:04:40.521713708Z          "backendNodeId": 6,
+2021-05-05T19:04:40.521716508Z          "childNodeCount": 2,
+2021-05-05T19:04:40.521719308Z          "children": [ {
+2021-05-05T19:04:40.521722109Z             "attributes": [  ],
+2021-05-05T19:04:40.521725109Z             "backendNodeId": 7,
+2021-05-05T19:04:40.521736410Z             "childNodeCount": 0,
+2021-05-05T19:04:40.521739610Z             "localName": "head",
+2021-05-05T19:04:40.521742510Z             "nodeId": 7,
+2021-05-05T19:04:40.521745310Z             "nodeName": "HEAD",
+2021-05-05T19:04:40.521748210Z             "nodeType": 1,
+2021-05-05T19:04:40.521751110Z             "nodeValue": "",
+2021-05-05T19:04:40.521754011Z             "parentId": 6
+2021-05-05T19:04:40.521756811Z          }, {
+2021-05-05T19:04:40.521759611Z             "attributes": [  ],
+2021-05-05T19:04:40.521762511Z             "backendNodeId": 8,
+2021-05-05T19:04:40.521765311Z             "childNodeCount": 0,
+2021-05-05T19:04:40.521768112Z             "localName": "body",
+2021-05-05T19:04:40.521771012Z             "nodeId": 8,
+2021-05-05T19:04:40.521773912Z             "nodeName": "BODY",
+2021-05-05T19:04:40.521777212Z             "nodeType": 1,
+2021-05-05T19:04:40.521780112Z             "nodeValue": "",
+2021-05-05T19:04:40.521782912Z             "parentId": 6
+2021-05-05T19:04:40.521785813Z          } ],
+2021-05-05T19:04:40.521788613Z          "frameId": "B2CD81454F214ABA412D6157B0952D27",
+2021-05-05T19:04:40.521791613Z          "localName": "html",
+2021-05-05T19:04:40.521794513Z          "nodeId": 6,
+2021-05-05T19:04:40.521797313Z          "nodeName": "HTML",
+2021-05-05T19:04:40.521800114Z          "nodeType": 1,
+2021-05-05T19:04:40.521803014Z          "nodeValue": "",
+2021-05-05T19:04:40.521805814Z          "parentId": 5
+2021-05-05T19:04:40.521808614Z       } ],
+2021-05-05T19:04:40.521811314Z       "documentURL": "data:,",
+2021-05-05T19:04:40.521814315Z       "localName": "",
+2021-05-05T19:04:40.521817115Z       "nodeId": 5,
+2021-05-05T19:04:40.521819815Z       "nodeName": "#document",
+2021-05-05T19:04:40.521822715Z       "nodeType": 9,
+2021-05-05T19:04:40.521825515Z       "nodeValue": "",
+2021-05-05T19:04:40.521828415Z       "xmlVersion": ""
+2021-05-05T19:04:40.521831316Z    }
+2021-05-05T19:04:40.521834016Z }
+2021-05-05T19:04:40.536342148Z [1620241480.536][DEBUG]: DevTools WebSocket Response: Page.enable (id=10) B2CD81454F214ABA412D6157B0952D27 {
+2021-05-05T19:04:40.536363749Z 
+2021-05-05T19:04:40.536367550Z }
+2021-05-05T19:04:40.536738173Z [1620241480.537][DEBUG]: DevTools WebSocket Response: Runtime.evaluate (id=11) B2CD81454F214ABA412D6157B0952D27 {
+2021-05-05T19:04:40.536748774Z    "result": {
+2021-05-05T19:04:40.536763075Z       "type": "string",
+2021-05-05T19:04:40.536766575Z       "value": "complete"
+2021-05-05T19:04:40.536769875Z    }
+2021-05-05T19:04:40.536772976Z }
+2021-05-05T19:04:40.536868682Z [1620241480.537][DEBUG]: DevTools WebSocket Command: Runtime.enable (id=13) B2CD81454F214ABA412D6157B0952D27 {
+2021-05-05T19:04:40.536874982Z 
+2021-05-05T19:04:40.536877982Z }
+2021-05-05T19:04:40.537226805Z [1620241480.537][DEBUG]: DevTools WebSocket Response: DOM.getDocument (id=12) B2CD81454F214ABA412D6157B0952D27 {
+2021-05-05T19:04:40.537236005Z    "root": {
+2021-05-05T19:04:40.537239206Z       "backendNodeId": 5,
+2021-05-05T19:04:40.537242406Z       "baseURL": "data:,",
+2021-05-05T19:04:40.537245606Z       "childNodeCount": 1,
+2021-05-05T19:04:40.537248906Z       "children": [ {
+2021-05-05T19:04:40.537251906Z          "attributes": [  ],
+2021-05-05T19:04:40.537255007Z          "backendNodeId": 6,
+2021-05-05T19:04:40.537258107Z          "childNodeCount": 2,
+2021-05-05T19:04:40.537261207Z          "children": [ {
+2021-05-05T19:04:40.537264207Z             "attributes": [  ],
+2021-05-05T19:04:40.537267307Z             "backendNodeId": 7,
+2021-05-05T19:04:40.537270408Z             "childNodeCount": 0,
+2021-05-05T19:04:40.537273508Z             "localName": "head",
+2021-05-05T19:04:40.537276708Z             "nodeId": 11,
+2021-05-05T19:04:40.537279808Z             "nodeName": "HEAD",
+2021-05-05T19:04:40.537282908Z             "nodeType": 1,
+2021-05-05T19:04:40.537286009Z             "nodeValue": "",
+2021-05-05T19:04:40.537289009Z             "parentId": 10
+2021-05-05T19:04:40.537292009Z          }, {
+2021-05-05T19:04:40.537295009Z             "attributes": [  ],
+2021-05-05T19:04:40.537298109Z             "backendNodeId": 8,
+2021-05-05T19:04:40.537301210Z             "childNodeCount": 0,
+2021-05-05T19:04:40.537304310Z             "localName": "body",
+2021-05-05T19:04:40.537307510Z             "nodeId": 12,
+2021-05-05T19:04:40.537310610Z             "nodeName": "BODY",
+2021-05-05T19:04:40.537313610Z             "nodeType": 1,
+2021-05-05T19:04:40.537316711Z             "nodeValue": "",
+2021-05-05T19:04:40.537319711Z             "parentId": 10
+2021-05-05T19:04:40.537322811Z          } ],
+2021-05-05T19:04:40.537325811Z          "frameId": "B2CD81454F214ABA412D6157B0952D27",
+2021-05-05T19:04:40.537329011Z          "localName": "html",
+2021-05-05T19:04:40.537332212Z          "nodeId": 10,
+2021-05-05T19:04:40.537336912Z          "nodeName": "HTML",
+2021-05-05T19:04:40.537347513Z          "nodeType": 1,
+2021-05-05T19:04:40.537350813Z          "nodeValue": "",
+2021-05-05T19:04:40.537353813Z          "parentId": 9
+2021-05-05T19:04:40.537356813Z       } ],
+2021-05-05T19:04:40.537359913Z       "documentURL": "data:,",
+2021-05-05T19:04:40.537363114Z       "localName": "",
+2021-05-05T19:04:40.537366214Z       "nodeId": 9,
+2021-05-05T19:04:40.537369214Z       "nodeName": "#document",
+2021-05-05T19:04:40.537372514Z       "nodeType": 9,
+2021-05-05T19:04:40.537375514Z       "nodeValue": "",
+2021-05-05T19:04:40.537378815Z       "xmlVersion": ""
+2021-05-05T19:04:40.537381915Z    }
+2021-05-05T19:04:40.537384815Z }
+2021-05-05T19:04:40.537618730Z [1620241480.538][DEBUG]: DevTools WebSocket Response: Runtime.enable (id=13) B2CD81454F214ABA412D6157B0952D27 {
+2021-05-05T19:04:40.537627631Z 
+2021-05-05T19:04:40.537630631Z }
+2021-05-05T19:04:40.538170165Z [1620241480.538][DEBUG]: DevTools WebSocket Command: Runtime.evaluate (id=14) B2CD81454F214ABA412D6157B0952D27 {
+2021-05-05T19:04:40.538177266Z    "awaitPromise": true,
+2021-05-05T19:04:40.538180666Z    "expression": "(function() { // Copyright (c) 2012 The Chromium Authors. All rights reserved.\n// Use of this source code is governed by a BSD-style license that can be\n// found in the LICENSE file.\n\n/**\n * Enum f...",
+2021-05-05T19:04:40.538184966Z    "returnByValue": true
+2021-05-05T19:04:40.538188067Z }
+2021-05-05T19:04:40.540316603Z [1620241480.540][DEBUG]: DevTools WebSocket Response: Runtime.evaluate (id=14) B2CD81454F214ABA412D6157B0952D27 {
+2021-05-05T19:04:40.540329304Z    "result": {
+2021-05-05T19:04:40.540332604Z       "type": "object",
+2021-05-05T19:04:40.540335705Z       "value": {
+2021-05-05T19:04:40.540338605Z          "status": 0,
+2021-05-05T19:04:40.540341505Z          "value": 1
+2021-05-05T19:04:40.540344505Z       }
+2021-05-05T19:04:40.540347305Z    }
+2021-05-05T19:04:40.540350105Z }
+2021-05-05T19:04:40.540501015Z [1620241480.540][INFO]: [f6a2d4b762d805b532d5d203d9eee90a] RESPONSE InitSession {
+2021-05-05T19:04:40.540506716Z    "capabilities": {
+2021-05-05T19:04:40.540527217Z       "acceptInsecureCerts": false,
+2021-05-05T19:04:40.540530517Z       "browserName": "chrome",
+2021-05-05T19:04:40.540533717Z       "browserVersion": "88.0.4324.96",
+2021-05-05T19:04:40.540537017Z       "chrome": {
+2021-05-05T19:04:40.540540118Z          "chromedriverVersion": "88.0.4324.27 (6347fe8bf1e48bd0c54d07dc55ca011cf40861c9-refs/branch-heads/4324@{#450})",
+2021-05-05T19:04:40.540543818Z          "userDataDir": "/tmp/.com.google.Chrome.yaarjW"
+2021-05-05T19:04:40.540555519Z       },
+2021-05-05T19:04:40.540574720Z       "goog:chromeOptions": {
+2021-05-05T19:04:40.540578420Z          "debuggerAddress": "localhost:42733"
+2021-05-05T19:04:40.540581820Z       },
+2021-05-05T19:04:40.540584821Z       "networkConnectionEnabled": false,
+2021-05-05T19:04:40.540588021Z       "pageLoadStrategy": "normal",
+2021-05-05T19:04:40.540591221Z       "platformName": "linux",
+2021-05-05T19:04:40.540594421Z       "proxy": {
+2021-05-05T19:04:40.540597521Z 
+2021-05-05T19:04:40.540600422Z       },
+2021-05-05T19:04:40.540603422Z       "setWindowRect": true,
+2021-05-05T19:04:40.540606522Z       "strictFileInteractability": false,
+2021-05-05T19:04:40.540609522Z       "timeouts": {
+2021-05-05T19:04:40.540612522Z          "implicit": 0,
+2021-05-05T19:04:40.540615623Z          "pageLoad": 300000,
+2021-05-05T19:04:40.540618623Z          "script": 30000
+2021-05-05T19:04:40.540621723Z       },
+2021-05-05T19:04:40.540624623Z       "unhandledPromptBehavior": "dismiss and notify",
+2021-05-05T19:04:40.540627923Z       "webauthn:extension:largeBlob": true,
+2021-05-05T19:04:40.540631024Z       "webauthn:virtualAuthenticators": true
+2021-05-05T19:04:40.540634024Z    },
+2021-05-05T19:04:40.540647025Z    "sessionId": "f6a2d4b762d805b532d5d203d9eee90a"
+2021-05-05T19:04:40.540650525Z }
+2021-05-05T19:04:40.572484070Z PORT=5900
+2021-05-05T19:04:40.894661056Z [1620241480.894][INFO]: [f6a2d4b762d805b532d5d203d9eee90a] COMMAND SetTimeouts {
+2021-05-05T19:04:40.894685657Z    "implicit": 30000
+2021-05-05T19:04:40.894689758Z }
+2021-05-05T19:04:40.894693058Z [1620241480.894][INFO]: [f6a2d4b762d805b532d5d203d9eee90a] RESPONSE SetTimeouts
+2021-05-05T19:04:40.943612939Z [1620241480.943][INFO]: [f6a2d4b762d805b532d5d203d9eee90a] COMMAND Navigate {
+2021-05-05T19:04:40.943639241Z    "url": "https://www.selenium.dev/downloads/"
+2021-05-05T19:04:40.943643241Z }
+2021-05-05T19:04:40.943706445Z [1620241480.944][INFO]: Waiting for pending navigations...
+2021-05-05T19:04:40.943711445Z [1620241480.944][DEBUG]: DevTools WebSocket Command: Runtime.evaluate (id=15) B2CD81454F214ABA412D6157B0952D27 {
+2021-05-05T19:04:40.943715045Z    "expression": "1"
+2021-05-05T19:04:40.943718346Z }
+2021-05-05T19:04:40.944479794Z [1620241480.944][DEBUG]: DevTools WebSocket Response: Runtime.evaluate (id=15) B2CD81454F214ABA412D6157B0952D27 {
+2021-05-05T19:04:40.944492294Z    "result": {
+2021-05-05T19:04:40.944496495Z       "description": "1",
+2021-05-05T19:04:40.944513996Z       "type": "number",
+2021-05-05T19:04:40.944517596Z       "value": 1
+2021-05-05T19:04:40.944520596Z    }
+2021-05-05T19:04:40.944523696Z }
+2021-05-05T19:04:40.944573299Z [1620241480.944][INFO]: Done waiting for pending navigations. Status: ok
+2021-05-05T19:04:40.944578300Z [1620241480.944][DEBUG]: DevTools WebSocket Command: Page.navigate (id=16) B2CD81454F214ABA412D6157B0952D27 {
+2021-05-05T19:04:40.949192490Z    "url": "https://www.selenium.dev/downloads/"
+2021-05-05T19:04:40.949208391Z }
+2021-05-05T19:04:41.067557746Z [1620241481.067][DEBUG]: DevTools WebSocket Response: Page.navigate (id=16) B2CD81454F214ABA412D6157B0952D27 {
+2021-05-05T19:04:41.067584447Z    "frameId": "B2CD81454F214ABA412D6157B0952D27",
+2021-05-05T19:04:41.067588848Z    "loaderId": "40FC4B8E108843E24384CF62BEFA398F"
+2021-05-05T19:04:41.067592448Z }
+2021-05-05T19:04:41.067682754Z [1620241481.068][DEBUG]: DevTools WebSocket Command: Runtime.evaluate (id=17) B2CD81454F214ABA412D6157B0952D27 {
+2021-05-05T19:04:41.067689254Z    "expression": "document.URL"
+2021-05-05T19:04:41.067692654Z }
+2021-05-05T19:04:41.067891667Z [1620241481.068][DEBUG]: DevTools WebSocket Event: Runtime.executionContextsCleared B2CD81454F214ABA412D6157B0952D27 {
+2021-05-05T19:04:41.067899667Z 
+2021-05-05T19:04:41.067902867Z }
+2021-05-05T19:04:41.070578436Z [1620241481.071][DEBUG]: DevTools WebSocket Event: Page.frameStartedLoading B2CD81454F214ABA412D6157B0952D27 {
+2021-05-05T19:04:41.070592637Z    "frameId": "B2CD81454F214ABA412D6157B0952D27"
+2021-05-05T19:04:41.070597137Z }
+2021-05-05T19:04:41.136086862Z [1620241481.136][DEBUG]: DevTools WebSocket Event: Runtime.executionContextsCleared B2CD81454F214ABA412D6157B0952D27 {
+2021-05-05T19:04:41.136130465Z 
+2021-05-05T19:04:41.136134865Z }
+2021-05-05T19:04:41.136383081Z [1620241481.136][DEBUG]: DevTools WebSocket Event: Page.frameNavigated B2CD81454F214ABA412D6157B0952D27 {
+2021-05-05T19:04:41.136391481Z    "frame": {
+2021-05-05T19:04:41.136394981Z       "adFrameType": "none",
+2021-05-05T19:04:41.136398482Z       "crossOriginIsolatedContextType": "NotIsolated",
+2021-05-05T19:04:41.136401882Z       "domainAndRegistry": "selenium.dev",
+2021-05-05T19:04:41.136405182Z       "gatedAPIFeatures": [ "SharedArrayBuffers", "SharedArrayBuffersTransferAllowed" ],
+2021-05-05T19:04:41.136408882Z       "id": "B2CD81454F214ABA412D6157B0952D27",
+2021-05-05T19:04:41.136412082Z       "loaderId": "40FC4B8E108843E24384CF62BEFA398F",
+2021-05-05T19:04:41.136415383Z       "mimeType": "text/html",
+2021-05-05T19:04:41.136418683Z       "secureContextType": "Secure",
+2021-05-05T19:04:41.136421783Z       "securityOrigin": "https://www.selenium.dev",
+2021-05-05T19:04:41.136443284Z       "url": "https://www.selenium.dev/downloads/"
+2021-05-05T19:04:41.136447085Z    }
+2021-05-05T19:04:41.136449985Z }
+2021-05-05T19:04:41.136646297Z [1620241481.137][DEBUG]: DevTools WebSocket Event: DOM.documentUpdated B2CD81454F214ABA412D6157B0952D27 {
+2021-05-05T19:04:41.136654298Z 
+2021-05-05T19:04:41.136657398Z }
+2021-05-05T19:04:41.136729902Z [1620241481.137][DEBUG]: DevTools WebSocket Command: DOM.getDocument (id=18) B2CD81454F214ABA412D6157B0952D27 {
+2021-05-05T19:04:41.136735603Z 
+2021-05-05T19:04:41.136738603Z }
+2021-05-05T19:04:41.137452848Z [1620241481.137][DEBUG]: DevTools WebSocket Event: Runtime.executionContextCreated B2CD81454F214ABA412D6157B0952D27 {
+2021-05-05T19:04:41.137464849Z    "context": {
+2021-05-05T19:04:41.137468449Z       "auxData": {
+2021-05-05T19:04:41.137471549Z          "frameId": "B2CD81454F214ABA412D6157B0952D27",
+2021-05-05T19:04:41.137475049Z          "isDefault": true,
+2021-05-05T19:04:41.137478150Z          "type": "default"
+2021-05-05T19:04:41.137481450Z       },
+2021-05-05T19:04:41.137484450Z       "id": 1,
+2021-05-05T19:04:41.137487450Z       "name": "",
+2021-05-05T19:04:41.137490650Z       "origin": "https://www.selenium.dev"
+2021-05-05T19:04:41.137502151Z    }
+2021-05-05T19:04:41.137505351Z }
+2021-05-05T19:04:41.140764957Z [1620241481.141][DEBUG]: DevTools WebSocket Response: Runtime.evaluate (id=17) B2CD81454F214ABA412D6157B0952D27 {
+2021-05-05T19:04:41.140777757Z    "result": {
+2021-05-05T19:04:41.140781358Z       "type": "string",
+2021-05-05T19:04:41.140784658Z       "value": "https://www.selenium.dev/downloads/"
+2021-05-05T19:04:41.140787858Z    }
+2021-05-05T19:04:41.140790658Z }
+2021-05-05T19:04:41.140868263Z [1620241481.141][INFO]: Waiting for pending navigations...
+2021-05-05T19:04:41.140937167Z [1620241481.141][DEBUG]: DevTools WebSocket Command: Runtime.evaluate (id=19) B2CD81454F214ABA412D6157B0952D27 {
+2021-05-05T19:04:41.140942268Z    "expression": "1"
+2021-05-05T19:04:41.140945368Z }
+2021-05-05T19:04:41.226695769Z [1620241481.227][DEBUG]: DevTools WebSocket Response: DOM.getDocument (id=18) B2CD81454F214ABA412D6157B0952D27 {
+2021-05-05T19:04:41.226723371Z    "root": {
+2021-05-05T19:04:41.226727371Z       "backendNodeId": 1,
+2021-05-05T19:04:41.226730671Z       "baseURL": "https://www.selenium.dev/downloads/",
+2021-05-05T19:04:41.226733971Z       "childNodeCount": 2,
+2021-05-05T19:04:41.226737072Z       "children": [ {
+2021-05-05T19:04:41.226739972Z          "backendNodeId": 2,
+2021-05-05T19:04:41.226743272Z          "localName": "",
+2021-05-05T19:04:41.226755073Z          "nodeId": 2,
+2021-05-05T19:04:41.226758173Z          "nodeName": "html",
+2021-05-05T19:04:41.226761173Z          "nodeType": 10,
+2021-05-05T19:04:41.226763973Z          "nodeValue": "",
+2021-05-05T19:04:41.226766773Z          "parentId": 1,
+2021-05-05T19:04:41.226769574Z          "publicId": "",
+2021-05-05T19:04:41.226772574Z          "systemId": ""
+2021-05-05T19:04:41.226775374Z       }, {
+2021-05-05T19:04:41.226778274Z          "attributes": [  ],
+2021-05-05T19:04:41.226781274Z          "backendNodeId": 3,
+2021-05-05T19:04:41.226784075Z          "childNodeCount": 2,
+2021-05-05T19:04:41.226786975Z          "children": [ {
+2021-05-05T19:04:41.226789775Z             "attributes": [  ],
+2021-05-05T19:04:41.226792675Z             "backendNodeId": 4,
+2021-05-05T19:04:41.226795575Z             "childNodeCount": 4,
+2021-05-05T19:04:41.226798475Z             "localName": "head",
+2021-05-05T19:04:41.226801376Z             "nodeId": 4,
+2021-05-05T19:04:41.226804176Z             "nodeName": "HEAD",
+2021-05-05T19:04:41.226807076Z             "nodeType": 1,
+2021-05-05T19:04:41.226809876Z             "nodeValue": "",
+2021-05-05T19:04:41.226812776Z             "parentId": 3
+2021-05-05T19:04:41.226815576Z          }, {
+2021-05-05T19:04:41.226818377Z             "attributes": [  ],
+2021-05-05T19:04:41.226821177Z             "backendNodeId": 5,
+2021-05-05T19:04:41.226823977Z             "childNodeCount": 1,
+2021-05-05T19:04:41.226826777Z             "localName": "body",
+2021-05-05T19:04:41.226829677Z             "nodeId": 5,
+2021-05-05T19:04:41.226832478Z             "nodeName": "BODY",
+2021-05-05T19:04:41.226835278Z             "nodeType": 1,
+2021-05-05T19:04:41.226838078Z             "nodeValue": "",
+2021-05-05T19:04:41.226842878Z             "parentId": 3
+2021-05-05T19:04:41.226845778Z          } ],
+2021-05-05T19:04:41.226848579Z          "frameId": "B2CD81454F214ABA412D6157B0952D27",
+2021-05-05T19:04:41.226851579Z          "localName": "html",
+2021-05-05T19:04:41.226854379Z          "nodeId": 3,
+2021-05-05T19:04:41.226857279Z          "nodeName": "HTML",
+2021-05-05T19:04:41.226860079Z          "nodeType": 1,
+2021-05-05T19:04:41.226862879Z          "nodeValue": "",
+2021-05-05T19:04:41.226865780Z          "parentId": 1
+2021-05-05T19:04:41.226868780Z       } ],
+2021-05-05T19:04:41.226871480Z       "documentURL": "https://www.selenium.dev/downloads/",
+2021-05-05T19:04:41.226877880Z       "localName": "",
+2021-05-05T19:04:41.226880781Z       "nodeId": 1,
+2021-05-05T19:04:41.226883681Z       "nodeName": "#document",
+2021-05-05T19:04:41.226886581Z       "nodeType": 9,
+2021-05-05T19:04:41.226889281Z       "nodeValue": "",
+2021-05-05T19:04:41.226892181Z       "xmlVersion": ""
+2021-05-05T19:04:41.226895081Z    }
+2021-05-05T19:04:41.226897882Z }
+2021-05-05T19:04:41.255990814Z [1620241481.256][DEBUG]: DevTools WebSocket Response: Runtime.evaluate (id=19) B2CD81454F214ABA412D6157B0952D27 {
+2021-05-05T19:04:41.256026816Z    "result": {
+2021-05-05T19:04:41.256031017Z       "description": "1",
+2021-05-05T19:04:41.256034517Z       "type": "number",
+2021-05-05T19:04:41.256037917Z       "value": 1
+2021-05-05T19:04:41.256041217Z    }
+2021-05-05T19:04:41.256044317Z }
+2021-05-05T19:04:41.269535267Z [1620241481.269][DEBUG]: DevTools WebSocket Event: DOM.childNodeCountUpdated B2CD81454F214ABA412D6157B0952D27 {
+2021-05-05T19:04:41.269560369Z    "childNodeCount": 2,
+2021-05-05T19:04:41.269564269Z    "nodeId": 5
+2021-05-05T19:04:41.269567469Z }
+2021-05-05T19:04:41.269582570Z [1620241481.270][DEBUG]: DevTools WebSocket Command: Runtime.evaluate (id=20) B2CD81454F214ABA412D6157B0952D27 {
+2021-05-05T19:04:41.269586570Z    "expression": "1"
+2021-05-05T19:04:41.269589871Z }
+2021-05-05T19:04:41.271870214Z [1620241481.272][DEBUG]: DevTools WebSocket Event: DOM.childNodeCountUpdated B2CD81454F214ABA412D6157B0952D27 {
+2021-05-05T19:04:41.271881415Z    "childNodeCount": 3,
+2021-05-05T19:04:41.271884515Z    "nodeId": 5
+2021-05-05T19:04:41.271887615Z }
+2021-05-05T19:04:41.272099829Z [1620241481.272][DEBUG]: DevTools WebSocket Event: DOM.childNodeCountUpdated B2CD81454F214ABA412D6157B0952D27 {
+2021-05-05T19:04:41.272105129Z    "childNodeCount": 4,
+2021-05-05T19:04:41.272108829Z    "nodeId": 5
+2021-05-05T19:04:41.272112229Z }
+2021-05-05T19:04:41.272309042Z [1620241481.272][DEBUG]: DevTools WebSocket Event: DOM.childNodeCountUpdated B2CD81454F214ABA412D6157B0952D27 {
+2021-05-05T19:04:41.272314642Z    "childNodeCount": 5,
+2021-05-05T19:04:41.272317842Z    "nodeId": 5
+2021-05-05T19:04:41.272320943Z }
+2021-05-05T19:04:41.282810603Z [1620241481.283][DEBUG]: DevTools WebSocket Response: Runtime.evaluate (id=20) B2CD81454F214ABA412D6157B0952D27 {
+2021-05-05T19:04:41.282825104Z    "result": {
+2021-05-05T19:04:41.282828804Z       "description": "1",
+2021-05-05T19:04:41.282838805Z       "type": "number",
+2021-05-05T19:04:41.282851506Z       "value": 1
+2021-05-05T19:04:41.282854906Z    }
+2021-05-05T19:04:41.282857806Z }
+2021-05-05T19:04:41.297322017Z [1620241481.297][DEBUG]: DevTools WebSocket Event: DOM.childNodeCountUpdated B2CD81454F214ABA412D6157B0952D27 {
+2021-05-05T19:04:41.297348219Z    "childNodeCount": 6,
+2021-05-05T19:04:41.297352219Z    "nodeId": 5
+2021-05-05T19:04:41.297355619Z }
+2021-05-05T19:04:41.297417323Z [1620241481.297][DEBUG]: DevTools WebSocket Command: Runtime.evaluate (id=21) B2CD81454F214ABA412D6157B0952D27 {
+2021-05-05T19:04:41.297422424Z    "expression": "1"
+2021-05-05T19:04:41.297425724Z }
+2021-05-05T19:04:41.301414275Z [1620241481.301][DEBUG]: DevTools WebSocket Event: DOM.childNodeCountUpdated B2CD81454F214ABA412D6157B0952D27 {
+2021-05-05T19:04:41.301427376Z    "childNodeCount": 7,
+2021-05-05T19:04:41.301437277Z    "nodeId": 5
+2021-05-05T19:04:41.301440577Z }
+2021-05-05T19:04:41.301571585Z [1620241481.302][DEBUG]: DevTools WebSocket Event: DOM.childNodeCountUpdated B2CD81454F214ABA412D6157B0952D27 {
+2021-05-05T19:04:41.301576985Z    "childNodeCount": 8,
+2021-05-05T19:04:41.301580186Z    "nodeId": 5
+2021-05-05T19:04:41.301583286Z }
+2021-05-05T19:04:41.301734895Z [1620241481.302][DEBUG]: DevTools WebSocket Event: DOM.childNodeCountUpdated B2CD81454F214ABA412D6157B0952D27 {
+2021-05-05T19:04:41.301740596Z    "childNodeCount": 9,
+2021-05-05T19:04:41.301743796Z    "nodeId": 5
+2021-05-05T19:04:41.301746896Z }
+2021-05-05T19:04:41.301905606Z [1620241481.302][DEBUG]: DevTools WebSocket Event: DOM.childNodeCountUpdated B2CD81454F214ABA412D6157B0952D27 {
+2021-05-05T19:04:41.301911106Z    "childNodeCount": 10,
+2021-05-05T19:04:41.301914407Z    "nodeId": 5
+2021-05-05T19:04:41.301917407Z }
+2021-05-05T19:04:41.302115719Z [1620241481.302][DEBUG]: DevTools WebSocket Event: DOM.childNodeCountUpdated B2CD81454F214ABA412D6157B0952D27 {
+2021-05-05T19:04:41.302121120Z    "childNodeCount": 11,
+2021-05-05T19:04:41.302124320Z    "nodeId": 5
+2021-05-05T19:04:41.302127520Z }
+2021-05-05T19:04:41.302289630Z [1620241481.302][DEBUG]: DevTools WebSocket Event: DOM.childNodeCountUpdated B2CD81454F214ABA412D6157B0952D27 {
+2021-05-05T19:04:41.302295031Z    "childNodeCount": 12,
+2021-05-05T19:04:41.302298231Z    "nodeId": 5
+2021-05-05T19:04:41.302301231Z }
+2021-05-05T19:04:41.302449140Z [1620241481.302][DEBUG]: DevTools WebSocket Event: DOM.childNodeCountUpdated B2CD81454F214ABA412D6157B0952D27 {
+2021-05-05T19:04:41.302454341Z    "childNodeCount": 13,
+2021-05-05T19:04:41.302457441Z    "nodeId": 5
+2021-05-05T19:04:41.302460541Z }
+2021-05-05T19:04:41.302606650Z [1620241481.303][DEBUG]: DevTools WebSocket Event: DOM.childNodeCountUpdated B2CD81454F214ABA412D6157B0952D27 {
+2021-05-05T19:04:41.302643252Z    "childNodeCount": 14,
+2021-05-05T19:04:41.302647153Z    "nodeId": 5
+2021-05-05T19:04:41.302650253Z }
+2021-05-05T19:04:41.302780761Z [1620241481.303][DEBUG]: DevTools WebSocket Event: DOM.childNodeCountUpdated B2CD81454F214ABA412D6157B0952D27 {
+2021-05-05T19:04:41.302786261Z    "childNodeCount": 15,
+2021-05-05T19:04:41.302789462Z    "nodeId": 5
+2021-05-05T19:04:41.302792462Z }
+2021-05-05T19:04:41.302949972Z [1620241481.303][DEBUG]: DevTools WebSocket Event: DOM.childNodeCountUpdated B2CD81454F214ABA412D6157B0952D27 {
+2021-05-05T19:04:41.302955172Z    "childNodeCount": 16,
+2021-05-05T19:04:41.302958272Z    "nodeId": 5
+2021-05-05T19:04:41.302961373Z }
+2021-05-05T19:04:41.303107682Z [1620241481.303][DEBUG]: DevTools WebSocket Event: DOM.childNodeCountUpdated B2CD81454F214ABA412D6157B0952D27 {
+2021-05-05T19:04:41.303112882Z    "childNodeCount": 17,
+2021-05-05T19:04:41.303115982Z    "nodeId": 5
+2021-05-05T19:04:41.303119082Z }
+2021-05-05T19:04:41.303341096Z [1620241481.303][DEBUG]: DevTools WebSocket Event: DOM.childNodeCountUpdated B2CD81454F214ABA412D6157B0952D27 {
+2021-05-05T19:04:41.303347697Z    "childNodeCount": 18,
+2021-05-05T19:04:41.303350697Z    "nodeId": 5
+2021-05-05T19:04:41.303353797Z }
+2021-05-05T19:04:41.303515507Z [1620241481.303][DEBUG]: DevTools WebSocket Event: DOM.childNodeCountUpdated B2CD81454F214ABA412D6157B0952D27 {
+2021-05-05T19:04:41.303520808Z    "childNodeCount": 19,
+2021-05-05T19:04:41.303523808Z    "nodeId": 5
+2021-05-05T19:04:41.303526808Z }
+2021-05-05T19:04:41.303944934Z [1620241481.304][DEBUG]: DevTools WebSocket Event: DOM.childNodeCountUpdated B2CD81454F214ABA412D6157B0952D27 {
+2021-05-05T19:04:41.303967036Z    "childNodeCount": 20,
+2021-05-05T19:04:41.303970436Z    "nodeId": 5
+2021-05-05T19:04:41.303973436Z }
+2021-05-05T19:04:41.304124046Z [1620241481.304][DEBUG]: DevTools WebSocket Event: DOM.childNodeCountUpdated B2CD81454F214ABA412D6157B0952D27 {
+2021-05-05T19:04:41.304129246Z    "childNodeCount": 21,
+2021-05-05T19:04:41.304132446Z    "nodeId": 5
+2021-05-05T19:04:41.304135546Z }
+2021-05-05T19:04:41.304283556Z [1620241481.304][DEBUG]: DevTools WebSocket Event: DOM.childNodeCountUpdated B2CD81454F214ABA412D6157B0952D27 {
+2021-05-05T19:04:41.304288856Z    "childNodeCount": 22,
+2021-05-05T19:04:41.304291956Z    "nodeId": 5
+2021-05-05T19:04:41.304295057Z }
+2021-05-05T19:04:41.304437966Z [1620241481.304][DEBUG]: DevTools WebSocket Event: DOM.childNodeCountUpdated B2CD81454F214ABA412D6157B0952D27 {
+2021-05-05T19:04:41.304478768Z    "childNodeCount": 23,
+2021-05-05T19:04:41.304499869Z    "nodeId": 5
+2021-05-05T19:04:41.304503470Z }
+2021-05-05T19:04:41.304599576Z [1620241481.305][DEBUG]: DevTools WebSocket Event: DOM.childNodeCountUpdated B2CD81454F214ABA412D6157B0952D27 {
+2021-05-05T19:04:41.304604676Z    "childNodeCount": 24,
+2021-05-05T19:04:41.304607676Z    "nodeId": 5
+2021-05-05T19:04:41.304610776Z }
+2021-05-05T19:04:41.304745685Z [1620241481.305][DEBUG]: DevTools WebSocket Event: DOM.childNodeCountUpdated B2CD81454F214ABA412D6157B0952D27 {
+2021-05-05T19:04:41.304750985Z    "childNodeCount": 25,
+2021-05-05T19:04:41.304754085Z    "nodeId": 5
+2021-05-05T19:04:41.304757086Z }
+2021-05-05T19:04:41.305560136Z [1620241481.306][DEBUG]: DevTools WebSocket Event: DOM.childNodeCountUpdated B2CD81454F214ABA412D6157B0952D27 {
+2021-05-05T19:04:41.305568237Z    "childNodeCount": 26,
+2021-05-05T19:04:41.305571437Z    "nodeId": 5
+2021-05-05T19:04:41.305574637Z }
+2021-05-05T19:04:41.306407790Z [1620241481.306][DEBUG]: DevTools WebSocket Event: DOM.childNodeCountUpdated B2CD81454F214ABA412D6157B0952D27 {
+2021-05-05T19:04:41.306436791Z    "childNodeCount": 27,
+2021-05-05T19:04:41.306454093Z    "nodeId": 5
+2021-05-05T19:04:41.306457393Z }
+2021-05-05T19:04:41.306572200Z [1620241481.307][DEBUG]: DevTools WebSocket Event: DOM.childNodeCountUpdated B2CD81454F214ABA412D6157B0952D27 {
+2021-05-05T19:04:41.306577900Z    "childNodeCount": 28,
+2021-05-05T19:04:41.306580900Z    "nodeId": 5
+2021-05-05T19:04:41.306583701Z }
+2021-05-05T19:04:41.306720209Z [1620241481.307][DEBUG]: DevTools WebSocket Event: DOM.childNodeCountUpdated B2CD81454F214ABA412D6157B0952D27 {
+2021-05-05T19:04:41.306726010Z    "childNodeCount": 29,
+2021-05-05T19:04:41.306728910Z    "nodeId": 5
+2021-05-05T19:04:41.306731710Z }
+2021-05-05T19:04:41.311992741Z [1620241481.312][DEBUG]: DevTools WebSocket Event: DOM.childNodeCountUpdated B2CD81454F214ABA412D6157B0952D27 {
+2021-05-05T19:04:41.312006842Z    "childNodeCount": 30,
+2021-05-05T19:04:41.312028344Z    "nodeId": 5
+2021-05-05T19:04:41.312032244Z }
+2021-05-05T19:04:41.316435321Z [1620241481.316][DEBUG]: DevTools WebSocket Event: DOM.childNodeCountUpdated B2CD81454F214ABA412D6157B0952D27 {
+2021-05-05T19:04:41.316448822Z    "childNodeCount": 31,
+2021-05-05T19:04:41.316453022Z    "nodeId": 5
+2021-05-05T19:04:41.316456323Z }
+2021-05-05T19:04:41.316696238Z [1620241481.317][DEBUG]: DevTools WebSocket Response: Runtime.evaluate (id=21) B2CD81454F214ABA412D6157B0952D27 {
+2021-05-05T19:04:41.316704538Z    "result": {
+2021-05-05T19:04:41.316708038Z       "description": "1",
+2021-05-05T19:04:41.316720239Z       "type": "number",
+2021-05-05T19:04:41.316723639Z       "value": 1
+2021-05-05T19:04:41.316726840Z    }
+2021-05-05T19:04:41.316730040Z }
+2021-05-05T19:04:41.329097019Z [1620241481.329][DEBUG]: DevTools WebSocket Event: DOM.childNodeCountUpdated B2CD81454F214ABA412D6157B0952D27 {
+2021-05-05T19:04:41.329112120Z    "childNodeCount": 32,
+2021-05-05T19:04:41.329116020Z    "nodeId": 5
+2021-05-05T19:04:41.329119220Z }
+2021-05-05T19:04:41.329213126Z [1620241481.329][DEBUG]: DevTools WebSocket Command: Runtime.evaluate (id=22) B2CD81454F214ABA412D6157B0952D27 {
+2021-05-05T19:04:41.329219126Z    "expression": "1"
+2021-05-05T19:04:41.329222727Z }
+2021-05-05T19:04:41.329634153Z [1620241481.330][DEBUG]: DevTools WebSocket Event: DOM.documentUpdated B2CD81454F214ABA412D6157B0952D27 {
+2021-05-05T19:04:41.329643853Z 
+2021-05-05T19:04:41.329646953Z }
+2021-05-05T19:04:41.329707557Z [1620241481.330][DEBUG]: DevTools WebSocket Command: DOM.getDocument (id=23) B2CD81454F214ABA412D6157B0952D27 {
+2021-05-05T19:04:41.329713157Z 
+2021-05-05T19:04:41.329716258Z }
+2021-05-05T19:04:41.330110983Z [1620241481.330][DEBUG]: DevTools WebSocket Event: Page.domContentEventFired B2CD81454F214ABA412D6157B0952D27 {
+2021-05-05T19:04:41.330120183Z    "timestamp": 124.701831
+2021-05-05T19:04:41.330123483Z }
+2021-05-05T19:04:41.335822542Z [1620241481.336][DEBUG]: DevTools WebSocket Response: Runtime.evaluate (id=22) B2CD81454F214ABA412D6157B0952D27 {
+2021-05-05T19:04:41.335834643Z    "result": {
+2021-05-05T19:04:41.335838243Z       "description": "1",
+2021-05-05T19:04:41.335841743Z       "type": "number",
+2021-05-05T19:04:41.335845144Z       "value": 1
+2021-05-05T19:04:41.335848344Z    }
+2021-05-05T19:04:41.335851444Z }
+2021-05-05T19:04:41.336336775Z [1620241481.336][DEBUG]: DevTools WebSocket Response: DOM.getDocument (id=23) B2CD81454F214ABA412D6157B0952D27 {
+2021-05-05T19:04:41.336346275Z    "root": {
+2021-05-05T19:04:41.336349575Z       "backendNodeId": 1,
+2021-05-05T19:04:41.336353176Z       "baseURL": "https://www.selenium.dev/downloads/",
+2021-05-05T19:04:41.336356776Z       "childNodeCount": 2,
+2021-05-05T19:04:41.336360076Z       "children": [ {
+2021-05-05T19:04:41.336363176Z          "backendNodeId": 2,
+2021-05-05T19:04:41.336366177Z          "localName": "",
+2021-05-05T19:04:41.336369877Z          "nodeId": 7,
+2021-05-05T19:04:41.336373077Z          "nodeName": "html",
+2021-05-05T19:04:41.336376277Z          "nodeType": 10,
+2021-05-05T19:04:41.336379377Z          "nodeValue": "",
+2021-05-05T19:04:41.336391178Z          "parentId": 6,
+2021-05-05T19:04:41.336394478Z          "publicId": "",
+2021-05-05T19:04:41.336397478Z          "systemId": ""
+2021-05-05T19:04:41.336400679Z       }, {
+2021-05-05T19:04:41.336403679Z          "attributes": [  ],
+2021-05-05T19:04:41.336406779Z          "backendNodeId": 3,
+2021-05-05T19:04:41.336409779Z          "childNodeCount": 2,
+2021-05-05T19:04:41.336412979Z          "children": [ {
+2021-05-05T19:04:41.336416080Z             "attributes": [  ],
+2021-05-05T19:04:41.336419280Z             "backendNodeId": 4,
+2021-05-05T19:04:41.336422480Z             "childNodeCount": 4,
+2021-05-05T19:04:41.336425580Z             "localName": "head",
+2021-05-05T19:04:41.336428680Z             "nodeId": 9,
+2021-05-05T19:04:41.336431681Z             "nodeName": "HEAD",
+2021-05-05T19:04:41.336434881Z             "nodeType": 1,
+2021-05-05T19:04:41.336437881Z             "nodeValue": "",
+2021-05-05T19:04:41.336440881Z             "parentId": 8
+2021-05-05T19:04:41.336443981Z          }, {
+2021-05-05T19:04:41.336446882Z             "attributes": [  ],
+2021-05-05T19:04:41.336449982Z             "backendNodeId": 5,
+2021-05-05T19:04:41.336452982Z             "childNodeCount": 32,
+2021-05-05T19:04:41.336456082Z             "localName": "body",
+2021-05-05T19:04:41.336459182Z             "nodeId": 10,
+2021-05-05T19:04:41.336462283Z             "nodeName": "BODY",
+2021-05-05T19:04:41.336465883Z             "nodeType": 1,
+2021-05-05T19:04:41.336468983Z             "nodeValue": "",
+2021-05-05T19:04:41.336471983Z             "parentId": 8
+2021-05-05T19:04:41.336474983Z          } ],
+2021-05-05T19:04:41.336477984Z          "frameId": "B2CD81454F214ABA412D6157B0952D27",
+2021-05-05T19:04:41.336481284Z          "localName": "html",
+2021-05-05T19:04:41.336484284Z          "nodeId": 8,
+2021-05-05T19:04:41.336487284Z          "nodeName": "HTML",
+2021-05-05T19:04:41.336490384Z          "nodeType": 1,
+2021-05-05T19:04:41.336493385Z          "nodeValue": "",
+2021-05-05T19:04:41.336496385Z          "parentId": 6
+2021-05-05T19:04:41.336499385Z       } ],
+2021-05-05T19:04:41.336502385Z       "documentURL": "https://www.selenium.dev/downloads/",
+2021-05-05T19:04:41.336505585Z       "localName": "",
+2021-05-05T19:04:41.336508685Z       "nodeId": 6,
+2021-05-05T19:04:41.336511686Z       "nodeName": "#document",
+2021-05-05T19:04:41.336514886Z       "nodeType": 9,
+2021-05-05T19:04:41.336521686Z       "nodeValue": "",
+2021-05-05T19:04:41.336524887Z       "xmlVersion": ""
+2021-05-05T19:04:41.336528087Z    }
+2021-05-05T19:04:41.336530987Z }
+2021-05-05T19:04:41.336606192Z [1620241481.337][DEBUG]: DevTools WebSocket Command: Runtime.evaluate (id=24) B2CD81454F214ABA412D6157B0952D27 {
+2021-05-05T19:04:41.336611792Z    "expression": "1"
+2021-05-05T19:04:41.336615092Z }
+2021-05-05T19:04:41.337378440Z [1620241481.337][DEBUG]: DevTools WebSocket Response: Runtime.evaluate (id=24) B2CD81454F214ABA412D6157B0952D27 {
+2021-05-05T19:04:41.337389141Z    "result": {
+2021-05-05T19:04:41.337392741Z       "description": "1",
+2021-05-05T19:04:41.337396041Z       "type": "number",
+2021-05-05T19:04:41.337399342Z       "value": 1
+2021-05-05T19:04:41.337402442Z    }
+2021-05-05T19:04:41.337405442Z }
+2021-05-05T19:04:41.363719899Z [1620241481.364][DEBUG]: DevTools WebSocket Event: DOM.childNodeCountUpdated B2CD81454F214ABA412D6157B0952D27 {
+2021-05-05T19:04:41.363759002Z    "childNodeCount": 5,
+2021-05-05T19:04:41.363763202Z    "nodeId": 9
+2021-05-05T19:04:41.363766502Z }
+2021-05-05T19:04:41.363896210Z [1620241481.364][DEBUG]: DevTools WebSocket Command: Runtime.evaluate (id=25) B2CD81454F214ABA412D6157B0952D27 {
+2021-05-05T19:04:41.363902911Z    "expression": "1"
+2021-05-05T19:04:41.363906311Z }
+2021-05-05T19:04:41.364591054Z [1620241481.365][DEBUG]: DevTools WebSocket Event: DOM.childNodeCountUpdated B2CD81454F214ABA412D6157B0952D27 {
+2021-05-05T19:04:41.364603455Z    "childNodeCount": 6,
+2021-05-05T19:04:41.364607155Z    "nodeId": 9
+2021-05-05T19:04:41.364610555Z }
+2021-05-05T19:04:41.364926475Z [1620241481.365][DEBUG]: DevTools WebSocket Event: DOM.childNodeCountUpdated B2CD81454F214ABA412D6157B0952D27 {
+2021-05-05T19:04:41.364936076Z    "childNodeCount": 7,
+2021-05-05T19:04:41.364939276Z    "nodeId": 9
+2021-05-05T19:04:41.364942476Z }
+2021-05-05T19:04:41.365396005Z [1620241481.365][DEBUG]: DevTools WebSocket Response: Runtime.evaluate (id=25) B2CD81454F214ABA412D6157B0952D27 {
+2021-05-05T19:04:41.365405506Z    "result": {
+2021-05-05T19:04:41.365408706Z       "description": "1",
+2021-05-05T19:04:41.365412106Z       "type": "number",
+2021-05-05T19:04:41.365415506Z       "value": 1
+2021-05-05T19:04:41.365418706Z    }
+2021-05-05T19:04:41.365421807Z }
+2021-05-05T19:04:41.419066085Z [1620241481.419][DEBUG]: DevTools WebSocket Event: Page.frameResized B2CD81454F214ABA412D6157B0952D27 {
+2021-05-05T19:04:41.419089487Z 
+2021-05-05T19:04:41.419093387Z }
+2021-05-05T19:04:41.419200994Z [1620241481.419][DEBUG]: DevTools WebSocket Command: Runtime.evaluate (id=26) B2CD81454F214ABA412D6157B0952D27 {
+2021-05-05T19:04:41.419207094Z    "expression": "1"
+2021-05-05T19:04:41.419210494Z }
+2021-05-05T19:04:41.472706064Z [1620241481.473][DEBUG]: DevTools WebSocket Response: Runtime.evaluate (id=26) B2CD81454F214ABA412D6157B0952D27 {
+2021-05-05T19:04:41.472729665Z    "result": {
+2021-05-05T19:04:41.472733566Z       "description": "1",
+2021-05-05T19:04:41.472737166Z       "type": "number",
+2021-05-05T19:04:41.472740566Z       "value": 1
+2021-05-05T19:04:41.472743866Z    }
+2021-05-05T19:04:41.472746866Z }
+2021-05-05T19:04:41.550442160Z [1620241481.550][DEBUG]: DevTools WebSocket Event: DOM.childNodeCountUpdated B2CD81454F214ABA412D6157B0952D27 {
+2021-05-05T19:04:41.550462261Z    "childNodeCount": 8,
+2021-05-05T19:04:41.550466262Z    "nodeId": 9
+2021-05-05T19:04:41.550469562Z }
+2021-05-05T19:04:41.550562968Z [1620241481.551][DEBUG]: DevTools WebSocket Event: DOM.childNodeCountUpdated B2CD81454F214ABA412D6157B0952D27 {
+2021-05-05T19:04:41.550569168Z    "childNodeCount": 9,
+2021-05-05T19:04:41.550572568Z    "nodeId": 9
+2021-05-05T19:04:41.550575768Z }
+2021-05-05T19:04:41.550629372Z [1620241481.551][DEBUG]: DevTools WebSocket Event: DOM.childNodeCountUpdated B2CD81454F214ABA412D6157B0952D27 {
+2021-05-05T19:04:41.550634772Z    "childNodeCount": 10,
+2021-05-05T19:04:41.550637972Z    "nodeId": 9
+2021-05-05T19:04:41.550641073Z }
+2021-05-05T19:04:41.550696776Z [1620241481.551][DEBUG]: DevTools WebSocket Event: DOM.childNodeCountUpdated B2CD81454F214ABA412D6157B0952D27 {
+2021-05-05T19:04:41.550702376Z    "childNodeCount": 33,
+2021-05-05T19:04:41.550705677Z    "nodeId": 10
+2021-05-05T19:04:41.550708777Z }
+2021-05-05T19:04:41.550759880Z [1620241481.551][DEBUG]: DevTools WebSocket Command: Runtime.evaluate (id=27) B2CD81454F214ABA412D6157B0952D27 {
+2021-05-05T19:04:41.550765080Z    "expression": "1"
+2021-05-05T19:04:41.550768581Z }
+2021-05-05T19:04:41.576175581Z [1620241481.576][DEBUG]: DevTools WebSocket Response: Runtime.evaluate (id=27) B2CD81454F214ABA412D6157B0952D27 {
+2021-05-05T19:04:41.576204483Z    "result": {
+2021-05-05T19:04:41.576208083Z       "description": "1",
+2021-05-05T19:04:41.576211083Z       "type": "number",
+2021-05-05T19:04:41.576213883Z       "value": 1
+2021-05-05T19:04:41.576216483Z    }
+2021-05-05T19:04:41.576218984Z }
+2021-05-05T19:04:41.583243826Z [1620241481.583][DEBUG]: DevTools WebSocket Event: Page.loadEventFired B2CD81454F214ABA412D6157B0952D27 {
+2021-05-05T19:04:41.583260227Z    "timestamp": 124.95441
+2021-05-05T19:04:41.583275028Z }
+2021-05-05T19:04:41.583278328Z [1620241481.583][DEBUG]: DevTools WebSocket Command: Runtime.evaluate (id=28) B2CD81454F214ABA412D6157B0952D27 {
+2021-05-05T19:04:41.583281728Z    "awaitPromise": false,
+2021-05-05T19:04:41.583301530Z    "expression": "document.readyState",
+2021-05-05T19:04:41.583306230Z    "returnByValue": true
+2021-05-05T19:04:41.583309330Z }
+2021-05-05T19:04:41.583428638Z [1620241481.583][DEBUG]: DevTools WebSocket Event: Page.frameStoppedLoading B2CD81454F214ABA412D6157B0952D27 {
+2021-05-05T19:04:41.583434138Z    "frameId": "B2CD81454F214ABA412D6157B0952D27"
+2021-05-05T19:04:41.583437538Z }
+2021-05-05T19:04:41.583993073Z [1620241481.584][DEBUG]: DevTools WebSocket Response: Runtime.evaluate (id=28) B2CD81454F214ABA412D6157B0952D27 {
+2021-05-05T19:04:41.584006474Z    "result": {
+2021-05-05T19:04:41.584010574Z       "type": "string",
+2021-05-05T19:04:41.584013875Z       "value": "complete"
+2021-05-05T19:04:41.584017175Z    }
+2021-05-05T19:04:41.584020375Z }
+2021-05-05T19:04:41.584100580Z [1620241481.584][DEBUG]: DevTools WebSocket Command: Runtime.evaluate (id=29) B2CD81454F214ABA412D6157B0952D27 {
+2021-05-05T19:04:41.584106480Z    "expression": "1"
+2021-05-05T19:04:41.584109781Z }
+2021-05-05T19:04:41.585871792Z [1620241481.586][DEBUG]: DevTools WebSocket Response: Runtime.evaluate (id=29) B2CD81454F214ABA412D6157B0952D27 {
+2021-05-05T19:04:41.585884392Z    "result": {
+2021-05-05T19:04:41.585888193Z       "description": "1",
+2021-05-05T19:04:41.585891593Z       "type": "number",
+2021-05-05T19:04:41.585895193Z       "value": 1
+2021-05-05T19:04:41.585898293Z    }
+2021-05-05T19:04:41.585901393Z }
+2021-05-05T19:04:41.585970998Z [1620241481.586][INFO]: Done waiting for pending navigations. Status: ok
+2021-05-05T19:04:41.586019101Z [1620241481.586][INFO]: [f6a2d4b762d805b532d5d203d9eee90a] RESPONSE Navigate
+2021-05-05T19:04:41.612334558Z [1620241481.612][INFO]: [f6a2d4b762d805b532d5d203d9eee90a] COMMAND Screenshot {
+2021-05-05T19:04:41.612353960Z 
+2021-05-05T19:04:41.612357760Z }
+2021-05-05T19:04:41.612361060Z [1620241481.612][INFO]: Waiting for pending navigations...
+2021-05-05T19:04:41.612364560Z [1620241481.612][DEBUG]: DevTools WebSocket Command: Runtime.evaluate (id=30) B2CD81454F214ABA412D6157B0952D27 {
+2021-05-05T19:04:41.612368060Z    "expression": "1"
+2021-05-05T19:04:41.612371461Z }
+2021-05-05T19:04:41.712357358Z [1620241481.712][DEBUG]: DevTools WebSocket Response: Runtime.evaluate (id=30) B2CD81454F214ABA412D6157B0952D27 {
+2021-05-05T19:04:41.712373559Z    "result": {
+2021-05-05T19:04:41.712377060Z       "description": "1",
+2021-05-05T19:04:41.712387860Z       "type": "number",
+2021-05-05T19:04:41.712391060Z       "value": 1
+2021-05-05T19:04:41.712394061Z    }
+2021-05-05T19:04:41.712396961Z }
+2021-05-05T19:04:41.712592573Z [1620241481.713][INFO]: Done waiting for pending navigations. Status: ok
+2021-05-05T19:04:41.712733982Z [1620241481.713][DEBUG]: DevTools HTTP Request: http://localhost:42733/json/activate/B2CD81454F214ABA412D6157B0952D27
+2021-05-05T19:04:41.714149671Z [1620241481.714][DEBUG]: DevTools HTTP Response: Target activated
+2021-05-05T19:04:41.714248477Z [1620241481.714][DEBUG]: DevTools WebSocket Command: Page.captureScreenshot (id=31) B2CD81454F214ABA412D6157B0952D27 {
+2021-05-05T19:04:41.714254678Z 
+2021-05-05T19:04:41.714257278Z }
+2021-05-05T19:04:41.947192349Z [1620241481.947][DEBUG]: DevTools WebSocket Response: Page.captureScreenshot (id=31) B2CD81454F214ABA412D6157B0952D27 {
+2021-05-05T19:04:41.947218851Z    "data": "iVBORw0KGgoAAAANSUhEUgAAA6kAAAOjCAYAAABZRELVAAAAAXNSR0IArs4c6QAAIABJREFUeJzs3Xd0XPWd///Xnd6kUS+WrGZb7r1hg8H0lgApEBKSzabtbsou37Dlm81udpN8N9/dJGez55tfsptdSGGTQBJCaEsxNhiDARtsI/cqy3JXsbpGmnp/f8geJM2ou..."
+2021-05-05T19:04:41.947233852Z }
+2021-05-05T19:04:41.947408263Z [1620241481.947][INFO]: Waiting for pending navigations...
+2021-05-05T19:04:41.947414963Z [1620241481.947][DEBUG]: DevTools WebSocket Command: Runtime.evaluate (id=32) B2CD81454F214ABA412D6157B0952D27 {
+2021-05-05T19:04:41.947418364Z    "expression": "1"
+2021-05-05T19:04:41.947421764Z }
+2021-05-05T19:04:41.948057304Z [1620241481.948][DEBUG]: DevTools WebSocket Response: Runtime.evaluate (id=32) B2CD81454F214ABA412D6157B0952D27 {
+2021-05-05T19:04:41.948066304Z    "result": {
+2021-05-05T19:04:41.948069705Z       "description": "1",
+2021-05-05T19:04:41.948073205Z       "type": "number",
+2021-05-05T19:04:41.948090706Z       "value": 1
+2021-05-05T19:04:41.948093906Z    }
+2021-05-05T19:04:41.948096906Z }
+2021-05-05T19:04:41.948100107Z [1620241481.948][INFO]: Done waiting for pending navigations. Status: ok
+2021-05-05T19:04:41.948147209Z [1620241481.948][INFO]: [f6a2d4b762d805b532d5d203d9eee90a] RESPONSE Screenshot "iVBORw0KGgoAAAANSUhEUgAAA6kAAAOjCAYAAABZRELVAAAAAXNSR0IArs4c6QAAIABJREFUeJzs3Xd0XPWd///Xnd6kUS+WrGZb7r1hg8H0lgApEBKSzabtbsou37Dlm81udpN8N9/dJGez55tfsptdSGGTQBJCaEsxNhiDARtsI/cqy3JXsbpGmnp/f8geJM2ou..."
+2021-05-05T19:04:41.976210477Z [1620241481.976][INFO]: [f6a2d4b762d805b532d5d203d9eee90a] COMMAND FindElement {
+2021-05-05T19:04:41.976227778Z    "using": "css selector",
+2021-05-05T19:04:41.976231678Z    "value": "a[href*=\"IEDriverServer_Win32_3\"]"
+2021-05-05T19:04:41.976235079Z }
+2021-05-05T19:04:41.976237979Z [1620241481.976][INFO]: Waiting for pending navigations...
+2021-05-05T19:04:41.976241079Z [1620241481.976][DEBUG]: DevTools WebSocket Command: Runtime.evaluate (id=33) B2CD81454F214ABA412D6157B0952D27 {
+2021-05-05T19:04:41.976269381Z    "expression": "1"
+2021-05-05T19:04:41.976273381Z }
+2021-05-05T19:04:41.978557025Z [1620241481.977][DEBUG]: DevTools WebSocket Response: Runtime.evaluate (id=33) B2CD81454F214ABA412D6157B0952D27 {
+2021-05-05T19:04:41.978570826Z    "result": {
+2021-05-05T19:04:41.978574726Z       "description": "1",
+2021-05-05T19:04:41.978578026Z       "type": "number",
+2021-05-05T19:04:41.978581026Z       "value": 1
+2021-05-05T19:04:41.978583927Z    }
+2021-05-05T19:04:41.978586727Z }
+2021-05-05T19:04:41.978589727Z [1620241481.977][INFO]: Done waiting for pending navigations. Status: ok
+2021-05-05T19:04:41.979140162Z [1620241481.979][DEBUG]: DevTools WebSocket Command: Runtime.evaluate (id=34) B2CD81454F214ABA412D6157B0952D27 {
+2021-05-05T19:04:41.979146162Z    "awaitPromise": true,
+2021-05-05T19:04:41.979149562Z    "expression": "(function() { // Copyright (c) 2012 The Chromium Authors. All rights reserved.\n// Use of this source code is governed by a BSD-style license that can be\n// found in the LICENSE file.\n\n/**\n * Enum f...",
+2021-05-05T19:04:41.979153762Z    "returnByValue": true
+2021-05-05T19:04:41.979156863Z }
+2021-05-05T19:04:41.986041896Z [1620241481.986][DEBUG]: DevTools WebSocket Response: Runtime.evaluate (id=34) B2CD81454F214ABA412D6157B0952D27 {
+2021-05-05T19:04:41.986055197Z    "result": {
+2021-05-05T19:04:41.986060797Z       "type": "object",
+2021-05-05T19:04:41.986064198Z       "value": {
+2021-05-05T19:04:41.986067398Z          "status": 0,
+2021-05-05T19:04:41.986070598Z          "value": {
+2021-05-05T19:04:41.986073798Z             "element-6066-11e4-a52e-4f735466cecf": "55088812-d3d4-49ab-a91e-80c0a9e78b9f"
+2021-05-05T19:04:41.986077299Z          }
+2021-05-05T19:04:41.986080299Z       }
+2021-05-05T19:04:41.986083399Z    }
+2021-05-05T19:04:41.986086399Z }
+2021-05-05T19:04:41.986147703Z [1620241481.986][INFO]: Waiting for pending navigations...
+2021-05-05T19:04:41.986178205Z [1620241481.986][DEBUG]: DevTools WebSocket Command: Runtime.evaluate (id=35) B2CD81454F214ABA412D6157B0952D27 {
+2021-05-05T19:04:41.986182605Z    "expression": "1"
+2021-05-05T19:04:41.986186105Z }
+2021-05-05T19:04:41.986755841Z [1620241481.987][DEBUG]: DevTools WebSocket Response: Runtime.evaluate (id=35) B2CD81454F214ABA412D6157B0952D27 {
+2021-05-05T19:04:41.986765742Z    "result": {
+2021-05-05T19:04:41.986769042Z       "description": "1",
+2021-05-05T19:04:41.986772442Z       "type": "number",
+2021-05-05T19:04:41.986775843Z       "value": 1
+2021-05-05T19:04:41.986779343Z    }
+2021-05-05T19:04:41.986790643Z }
+2021-05-05T19:04:41.986793744Z [1620241481.987][INFO]: Done waiting for pending navigations. Status: ok
+2021-05-05T19:04:41.986796944Z [1620241481.987][INFO]: [f6a2d4b762d805b532d5d203d9eee90a] RESPONSE FindElement {
+2021-05-05T19:04:41.986800544Z    "element-6066-11e4-a52e-4f735466cecf": "55088812-d3d4-49ab-a91e-80c0a9e78b9f"
+2021-05-05T19:04:41.986804144Z }
+2021-05-05T19:04:41.992735518Z [1620241481.993][INFO]: [f6a2d4b762d805b532d5d203d9eee90a] COMMAND ClickElement {
+2021-05-05T19:04:41.992749519Z    "id": "55088812-d3d4-49ab-a91e-80c0a9e78b9f"
+2021-05-05T19:04:41.992753219Z }
+2021-05-05T19:04:41.992756119Z [1620241481.993][INFO]: Waiting for pending navigations...
+2021-05-05T19:04:41.992759219Z [1620241481.993][DEBUG]: DevTools WebSocket Command: Runtime.evaluate (id=36) B2CD81454F214ABA412D6157B0952D27 {
+2021-05-05T19:04:41.992762420Z    "expression": "1"
+2021-05-05T19:04:41.992765620Z }
+2021-05-05T19:04:41.994331818Z [1620241481.994][DEBUG]: DevTools WebSocket Response: Runtime.evaluate (id=36) B2CD81454F214ABA412D6157B0952D27 {
+2021-05-05T19:04:41.994342319Z    "result": {
+2021-05-05T19:04:41.994345419Z       "description": "1",
+2021-05-05T19:04:41.994348920Z       "type": "number",
+2021-05-05T19:04:41.994352020Z       "value": 1
+2021-05-05T19:04:41.994354920Z    }
+2021-05-05T19:04:41.994357620Z }
+2021-05-05T19:04:41.994360420Z [1620241481.994][INFO]: Done waiting for pending navigations. Status: ok
+2021-05-05T19:04:41.994678740Z [1620241481.995][DEBUG]: DevTools WebSocket Command: Runtime.evaluate (id=37) B2CD81454F214ABA412D6157B0952D27 {
+2021-05-05T19:04:41.994683341Z    "awaitPromise": true,
+2021-05-05T19:04:41.994686341Z    "expression": "(function() { // Copyright (c) 2012 The Chromium Authors. All rights reserved.\n// Use of this source code is governed by a BSD-style license that can be\n// found in the LICENSE file.\n\n/**\n * Enum f...",
+2021-05-05T19:04:41.994690341Z    "returnByValue": true
+2021-05-05T19:04:41.994693241Z }
+2021-05-05T19:04:41.996279841Z [1620241481.996][DEBUG]: DevTools WebSocket Response: Runtime.evaluate (id=37) B2CD81454F214ABA412D6157B0952D27 {
+2021-05-05T19:04:41.996289342Z    "result": {
+2021-05-05T19:04:41.996292042Z       "type": "object",
+2021-05-05T19:04:41.996294842Z       "value": {
+2021-05-05T19:04:41.996297342Z          "status": 0,
+2021-05-05T19:04:41.996299942Z          "value": "a"
+2021-05-05T19:04:41.996302543Z       }
+2021-05-05T19:04:41.996304943Z    }
+2021-05-05T19:04:41.996307443Z }
+2021-05-05T19:04:41.996631863Z [1620241481.997][DEBUG]: DevTools WebSocket Command: Runtime.evaluate (id=38) B2CD81454F214ABA412D6157B0952D27 {
+2021-05-05T19:04:41.996636464Z    "awaitPromise": true,
+2021-05-05T19:04:41.996647964Z    "expression": "(function() { // Copyright (c) 2012 The Chromium Authors. All rights reserved.\n// Use of this source code is governed by a BSD-style license that can be\n// found in the LICENSE file.\n\n/**\n * Enum f...",
+2021-05-05T19:04:41.996651965Z    "returnByValue": true
+2021-05-05T19:04:41.996654865Z }
+2021-05-05T19:04:41.997540621Z [1620241481.997][DEBUG]: DevTools WebSocket Response: Runtime.evaluate (id=38) B2CD81454F214ABA412D6157B0952D27 {
+2021-05-05T19:04:41.997550121Z    "result": {
+2021-05-05T19:04:41.997553321Z       "type": "object",
+2021-05-05T19:04:41.997556622Z       "value": {
+2021-05-05T19:04:41.997559622Z          "status": 0,
+2021-05-05T19:04:41.997563122Z          "value": "a"
+2021-05-05T19:04:41.997566222Z       }
+2021-05-05T19:04:41.997569222Z    }
+2021-05-05T19:04:41.997572123Z }
+2021-05-05T19:04:41.999146022Z [1620241481.999][DEBUG]: DevTools WebSocket Command: Runtime.evaluate (id=39) B2CD81454F214ABA412D6157B0952D27 {
+2021-05-05T19:04:41.999150822Z    "awaitPromise": true,
+2021-05-05T19:04:41.999153822Z    "expression": "(function() { // Copyright (c) 2012 The Chromium Authors. All rights reserved.\n// Use of this source code is governed by a BSD-style license that can be\n// found in the LICENSE file.\n\n/**\n * Enum f...",
+2021-05-05T19:04:41.999158122Z    "returnByValue": true
+2021-05-05T19:04:41.999161023Z }
+2021-05-05T19:04:42.006112360Z [1620241482.006][DEBUG]: DevTools WebSocket Response: Runtime.evaluate (id=39) B2CD81454F214ABA412D6157B0952D27 {
+2021-05-05T19:04:42.006126161Z    "result": {
+2021-05-05T19:04:42.006129762Z       "type": "object",
+2021-05-05T19:04:42.006133262Z       "value": {
+2021-05-05T19:04:42.006136362Z          "status": 0,
+2021-05-05T19:04:42.006139462Z          "value": true
+2021-05-05T19:04:42.006142662Z       }
+2021-05-05T19:04:42.006145663Z    }
+2021-05-05T19:04:42.006148963Z }
+2021-05-05T19:04:42.006734700Z [1620241482.007][DEBUG]: DevTools WebSocket Command: Runtime.evaluate (id=40) B2CD81454F214ABA412D6157B0952D27 {
+2021-05-05T19:04:42.006743300Z    "awaitPromise": true,
+2021-05-05T19:04:42.006746500Z    "expression": "(function() { // Copyright (c) 2012 The Chromium Authors. All rights reserved.\n// Use of this source code is governed by a BSD-style license that can be\n// found in the LICENSE file.\n\n/**\n * Enum f...",
+2021-05-05T19:04:42.006750601Z    "returnByValue": true
+2021-05-05T19:04:42.006753601Z }
+2021-05-05T19:04:42.010753853Z [1620241482.011][DEBUG]: DevTools WebSocket Response: Runtime.evaluate (id=40) B2CD81454F214ABA412D6157B0952D27 {
+2021-05-05T19:04:42.010764753Z    "result": {
+2021-05-05T19:04:42.010768054Z       "type": "object",
+2021-05-05T19:04:42.010780554Z       "value": {
+2021-05-05T19:04:42.010783555Z          "status": 0,
+2021-05-05T19:04:42.010786455Z          "value": {
+2021-05-05T19:04:42.010789355Z             "height": 17,
+2021-05-05T19:04:42.010792255Z             "left": 0,
+2021-05-05T19:04:42.010795055Z             "top": 0,
+2021-05-05T19:04:42.010798056Z             "width": 127.390625
+2021-05-05T19:04:42.010801056Z          }
+2021-05-05T19:04:42.010803856Z       }
+2021-05-05T19:04:42.010806656Z    }
+2021-05-05T19:04:42.010809456Z }
+2021-05-05T19:04:42.012319551Z [1620241482.012][DEBUG]: DevTools WebSocket Command: Runtime.evaluate (id=41) B2CD81454F214ABA412D6157B0952D27 {
+2021-05-05T19:04:42.012328252Z    "awaitPromise": true,
+2021-05-05T19:04:42.012331752Z    "expression": "(function() { // Copyright (c) 2012 The Chromium Authors. All rights reserved.\n// Use of this source code is governed by a BSD-style license that can be\n// found in the LICENSE file.\n\n/**\n * Enum f...",
+2021-05-05T19:04:42.012336052Z    "returnByValue": true
+2021-05-05T19:04:42.012339253Z }
+2021-05-05T19:04:42.017739293Z [1620241482.018][DEBUG]: DevTools WebSocket Response: Runtime.evaluate (id=41) B2CD81454F214ABA412D6157B0952D27 {
+2021-05-05T19:04:42.017752494Z    "result": {
+2021-05-05T19:04:42.017756194Z       "type": "object",
+2021-05-05T19:04:42.017759594Z       "value": {
+2021-05-05T19:04:42.017762794Z          "status": 0,
+2021-05-05T19:04:42.017766094Z          "value": {
+2021-05-05T19:04:42.017769195Z             "ceil": {
+2021-05-05T19:04:42.017772295Z 
+2021-05-05T19:04:42.017775195Z             },
+2021-05-05T19:04:42.017778295Z             "clone": {
+2021-05-05T19:04:42.017781395Z 
+2021-05-05T19:04:42.017784396Z             },
+2021-05-05T19:04:42.017787496Z             "floor": {
+2021-05-05T19:04:42.017790396Z 
+2021-05-05T19:04:42.017793396Z             },
+2021-05-05T19:04:42.017796396Z             "round": {
+2021-05-05T19:04:42.017799397Z 
+2021-05-05T19:04:42.017802597Z             },
+2021-05-05T19:04:42.017805597Z             "scale": {
+2021-05-05T19:04:42.017808497Z 
+2021-05-05T19:04:42.017811497Z             },
+2021-05-05T19:04:42.017814397Z             "translate": {
+2021-05-05T19:04:42.017817398Z 
+2021-05-05T19:04:42.017820298Z             },
+2021-05-05T19:04:42.017823198Z             "x": 481.5,
+2021-05-05T19:04:42.017826298Z             "y": 787.03125
+2021-05-05T19:04:42.017839099Z          }
+2021-05-05T19:04:42.017842199Z       }
+2021-05-05T19:04:42.017845199Z    }
+2021-05-05T19:04:42.017848200Z }
+2021-05-05T19:04:42.019212286Z [1620241482.019][DEBUG]: DevTools WebSocket Command: Runtime.evaluate (id=42) B2CD81454F214ABA412D6157B0952D27 {
+2021-05-05T19:04:42.019221986Z    "awaitPromise": true,
+2021-05-05T19:04:42.019225386Z    "expression": "(function() { // Copyright (c) 2012 The Chromium Authors. All rights reserved.\n// Use of this source code is governed by a BSD-style license that can be\n// found in the LICENSE file.\n\n/**\n * Enum f...",
+2021-05-05T19:04:42.019229487Z    "returnByValue": true
+2021-05-05T19:04:42.019232387Z }
+2021-05-05T19:04:42.023407550Z [1620241482.023][DEBUG]: DevTools WebSocket Response: Runtime.evaluate (id=42) B2CD81454F214ABA412D6157B0952D27 {
+2021-05-05T19:04:42.023421451Z    "result": {
+2021-05-05T19:04:42.023425351Z       "type": "object",
+2021-05-05T19:04:42.023428651Z       "value": {
+2021-05-05T19:04:42.023431851Z          "status": 0,
+2021-05-05T19:04:42.023435051Z          "value": {
+2021-05-05T19:04:42.023438152Z             "clickable": true
+2021-05-05T19:04:42.023441352Z          }
+2021-05-05T19:04:42.023444352Z       }
+2021-05-05T19:04:42.023447252Z    }
+2021-05-05T19:04:42.023450252Z }
+2021-05-05T19:04:42.023587661Z [1620241482.024][DEBUG]: DevTools WebSocket Command: Input.dispatchMouseEvent (id=43) B2CD81454F214ABA412D6157B0952D27 {
+2021-05-05T19:04:42.023594262Z    "button": "none",
+2021-05-05T19:04:42.023597562Z    "buttons": 0,
+2021-05-05T19:04:42.023600662Z    "clickCount": 0,
+2021-05-05T19:04:42.023603762Z    "force": 0.0,
+2021-05-05T19:04:42.023606862Z    "modifiers": 0,
+2021-05-05T19:04:42.023609963Z    "pointerType": "mouse",
+2021-05-05T19:04:42.023613163Z    "tangentialPressure": 0.0,
+2021-05-05T19:04:42.023616163Z    "tiltX": 0,
+2021-05-05T19:04:42.023619163Z    "tiltY": 0,
+2021-05-05T19:04:42.023622163Z    "twist": 0,
+2021-05-05T19:04:42.023625163Z    "type": "mouseMoved",
+2021-05-05T19:04:42.023628264Z    "x": 544,
+2021-05-05T19:04:42.023631364Z    "y": 795
+2021-05-05T19:04:42.023634464Z }
+2021-05-05T19:04:42.024140396Z [1620241482.024][DEBUG]: DevTools WebSocket Command: Input.dispatchMouseEvent (id=44) B2CD81454F214ABA412D6157B0952D27 {
+2021-05-05T19:04:42.024149997Z    "button": "left",
+2021-05-05T19:04:42.024153297Z    "buttons": 0,
+2021-05-05T19:04:42.024156497Z    "clickCount": 1,
+2021-05-05T19:04:42.024159497Z    "force": 0.0,
+2021-05-05T19:04:42.024172498Z    "modifiers": 0,
+2021-05-05T19:04:42.024175598Z    "pointerType": "mouse",
+2021-05-05T19:04:42.024178798Z    "tangentialPressure": 0.0,
+2021-05-05T19:04:42.024181799Z    "tiltX": 0,
+2021-05-05T19:04:42.024184799Z    "tiltY": 0,
+2021-05-05T19:04:42.024187799Z    "twist": 0,
+2021-05-05T19:04:42.024190699Z    "type": "mousePressed",
+2021-05-05T19:04:42.024193899Z    "x": 544,
+2021-05-05T19:04:42.024196999Z    "y": 795
+2021-05-05T19:04:42.024200000Z }
+2021-05-05T19:04:42.024583924Z [1620241482.025][DEBUG]: DevTools WebSocket Command: Input.dispatchMouseEvent (id=45) B2CD81454F214ABA412D6157B0952D27 {
+2021-05-05T19:04:42.024593324Z    "button": "left",
+2021-05-05T19:04:42.024596525Z    "buttons": 1,
+2021-05-05T19:04:42.024599625Z    "clickCount": 1,
+2021-05-05T19:04:42.024602625Z    "force": 0.0,
+2021-05-05T19:04:42.024605525Z    "modifiers": 0,
+2021-05-05T19:04:42.024608525Z    "pointerType": "mouse",
+2021-05-05T19:04:42.024611726Z    "tangentialPressure": 0.0,
+2021-05-05T19:04:42.024614726Z    "tiltX": 0,
+2021-05-05T19:04:42.024617726Z    "tiltY": 0,
+2021-05-05T19:04:42.024620626Z    "twist": 0,
+2021-05-05T19:04:42.024623726Z    "type": "mouseReleased",
+2021-05-05T19:04:42.024626927Z    "x": 544,
+2021-05-05T19:04:42.024629927Z    "y": 795
+2021-05-05T19:04:42.024632927Z }
+2021-05-05T19:04:42.028874894Z [1620241482.029][DEBUG]: DevTools WebSocket Response: Input.dispatchMouseEvent (id=43) B2CD81454F214ABA412D6157B0952D27 {
+2021-05-05T19:04:42.028887495Z 
+2021-05-05T19:04:42.028890995Z }
+2021-05-05T19:04:42.030068369Z [1620241482.030][DEBUG]: DevTools WebSocket Response: Input.dispatchMouseEvent (id=44) B2CD81454F214ABA412D6157B0952D27 {
+2021-05-05T19:04:42.030080070Z 
+2021-05-05T19:04:42.030083670Z }
+2021-05-05T19:04:42.030715610Z [1620241482.031][DEBUG]: DevTools WebSocket Event: Page.frameScheduledNavigation B2CD81454F214ABA412D6157B0952D27 {
+2021-05-05T19:04:42.030729011Z    "delay": 0,
+2021-05-05T19:04:42.030733211Z    "frameId": "B2CD81454F214ABA412D6157B0952D27",
+2021-05-05T19:04:42.030736911Z    "reason": "anchorClick",
+2021-05-05T19:04:42.030740312Z    "url": "https://selenium-release.storage.googleapis.com/3.150/IEDriverServer_Win32_3.150.1.zip"
+2021-05-05T19:04:42.030744112Z }
+2021-05-05T19:04:42.030967026Z [1620241482.031][DEBUG]: DevTools WebSocket Event: Page.frameRequestedNavigation B2CD81454F214ABA412D6157B0952D27 {
+2021-05-05T19:04:42.030975226Z    "disposition": "currentTab",
+2021-05-05T19:04:42.030989427Z    "frameId": "B2CD81454F214ABA412D6157B0952D27",
+2021-05-05T19:04:42.030992828Z    "reason": "anchorClick",
+2021-05-05T19:04:42.030996028Z    "url": "https://selenium-release.storage.googleapis.com/3.150/IEDriverServer_Win32_3.150.1.zip"
+2021-05-05T19:04:42.030999528Z }
+2021-05-05T19:04:42.031625367Z [1620241482.032][DEBUG]: DevTools WebSocket Event: Page.frameStartedLoading B2CD81454F214ABA412D6157B0952D27 {
+2021-05-05T19:04:42.031634268Z    "frameId": "B2CD81454F214ABA412D6157B0952D27"
+2021-05-05T19:04:42.031637468Z }
+2021-05-05T19:04:42.042493152Z [1620241482.042][DEBUG]: DevTools WebSocket Event: Page.frameClearedScheduledNavigation B2CD81454F214ABA412D6157B0952D27 {
+2021-05-05T19:04:42.042507653Z    "frameId": "B2CD81454F214ABA412D6157B0952D27"
+2021-05-05T19:04:42.042511653Z }
+2021-05-05T19:04:42.042614760Z [1620241482.043][DEBUG]: DevTools WebSocket Response: Input.dispatchMouseEvent (id=45) B2CD81454F214ABA412D6157B0952D27 {
+2021-05-05T19:04:42.042621260Z 
+2021-05-05T19:04:42.042624460Z }
+2021-05-05T19:04:42.042695465Z [1620241482.043][INFO]: Waiting for pending navigations...
+2021-05-05T19:04:42.042774470Z [1620241482.043][DEBUG]: DevTools WebSocket Command: Runtime.evaluate (id=46) B2CD81454F214ABA412D6157B0952D27 {
+2021-05-05T19:04:42.042780070Z    "expression": "1"
+2021-05-05T19:04:42.042792371Z }
+2021-05-05T19:04:42.085273346Z [1620241482.085][DEBUG]: DevTools WebSocket Response: Runtime.evaluate (id=46) B2CD81454F214ABA412D6157B0952D27 {
+2021-05-05T19:04:42.085301448Z    "result": {
+2021-05-05T19:04:42.085305148Z       "description": "1",
+2021-05-05T19:04:42.085308449Z       "type": "number",
+2021-05-05T19:04:42.085311549Z       "value": 1
+2021-05-05T19:04:42.085331850Z    }
+2021-05-05T19:04:42.085335150Z }
+2021-05-05T19:04:42.085536763Z [1620241482.085][DEBUG]: DevTools WebSocket Event: Page.frameStoppedLoading B2CD81454F214ABA412D6157B0952D27 {
+2021-05-05T19:04:42.085544363Z    "frameId": "B2CD81454F214ABA412D6157B0952D27"
+2021-05-05T19:04:42.085548164Z }
+2021-05-05T19:04:42.085647470Z [1620241482.086][DEBUG]: DevTools WebSocket Command: Runtime.evaluate (id=47) B2CD81454F214ABA412D6157B0952D27 {
+2021-05-05T19:04:42.085653370Z    "expression": "1"
+2021-05-05T19:04:42.085656871Z }
+2021-05-05T19:04:42.095539793Z [1620241482.095][DEBUG]: DevTools WebSocket Response: Runtime.evaluate (id=47) B2CD81454F214ABA412D6157B0952D27 {
+2021-05-05T19:04:42.095566895Z    "result": {
+2021-05-05T19:04:42.095570795Z       "description": "1",
+2021-05-05T19:04:42.095574295Z       "type": "number",
+2021-05-05T19:04:42.095577695Z       "value": 1
+2021-05-05T19:04:42.095580796Z    }
+2021-05-05T19:04:42.095593396Z }
+2021-05-05T19:04:42.096422249Z [1620241482.096][INFO]: Done waiting for pending navigations. Status: ok
+2021-05-05T19:04:42.096511254Z [1620241482.096][INFO]: [f6a2d4b762d805b532d5d203d9eee90a] RESPONSE ClickElement
+2021-05-05T19:04:47.147366882Z [1620241487.142][INFO]: [f6a2d4b762d805b532d5d203d9eee90a] COMMAND Quit {
+2021-05-05T19:04:47.147385283Z 
+2021-05-05T19:04:47.147388883Z }
+2021-05-05T19:04:47.192816144Z [1620241487.193][INFO]: [f6a2d4b762d805b532d5d203d9eee90a] RESPONSE Quit
+2021-05-05T19:04:47.192838846Z [1620241487.193][DEBUG]: Log type 'driver' lost 0 entries on destruction
+2021-05-05T19:04:47.192842746Z [1620241487.193][DEBUG]: Log type 'browser' lost 0 entries on destruction

@@ -1,0 +1,39 @@
+{
+  "uid" : "b1a8273437954620fa374b796ffaacdd",
+  "children" : [ {
+    "name" : "Example for download file",
+    "children" : [ {
+      "name" : "canDownloadCorrectFile()",
+      "uid" : "39eb772de7589e14",
+      "parentUid" : "716e75eb2cd69378e0322b0265e09105",
+      "status" : "passed",
+      "time" : {
+        "start" : 1620241475213,
+        "stop" : 1620241499329,
+        "duration" : 24116
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "716e75eb2cd69378e0322b0265e09105"
+  }, {
+    "name" : "Example for failed test(please check browser log)",
+    "children" : [ {
+      "name" : "cannotClickElement()",
+      "uid" : "a3f12a94e112c6b",
+      "parentUid" : "f07fc31efed1823a572bc21b84cfd03e",
+      "status" : "broken",
+      "time" : {
+        "start" : 1620241499454,
+        "stop" : 1620241544333,
+        "duration" : 44879
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "f07fc31efed1823a572bc21b84cfd03e"
+  } ],
+  "name" : "behaviors"
+}

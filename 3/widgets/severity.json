@@ -1,0 +1,21 @@
+[ {
+  "uid" : "a3f12a94e112c6b",
+  "name" : "cannotClickElement()",
+  "time" : {
+    "start" : 1620241499454,
+    "stop" : 1620241544333,
+    "duration" : 44879
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "39eb772de7589e14",
+  "name" : "canDownloadCorrectFile()",
+  "time" : {
+    "start" : 1620241475213,
+    "stop" : 1620241499329,
+    "duration" : 24116
+  },
+  "status" : "passed",
+  "severity" : "normal"
+} ]
