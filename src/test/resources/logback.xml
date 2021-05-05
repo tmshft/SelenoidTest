@@ -1,0 +1,15 @@
+<configuration>
+    <logger name="org.apache" level="INFO" />
+    <logger name="httpclient" level="INFO" />
+
+    <property name="format1" value="%d [%thread] [%p]:%c#%M:%m%n" />
+    <appender name="STDOUT" class="ch.qos.logback.core.ConsoleAppender">
+        <encoder>
+            <pattern>${format1}</pattern>
+        </encoder>
+    </appender>
+
+    <root level="INFO">
+        <appender-ref ref="STDOUT" />
+    </root>
+</configuration>
