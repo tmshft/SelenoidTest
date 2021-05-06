@@ -1,0 +1,48 @@
+{
+  "uid" : "98d3104e051c652961429bf95fa0b5d6",
+  "children" : [ {
+    "name" : "jp.shiftinc.automation.ExampleTest",
+    "children" : [ {
+      "name" : "allow popup when download => false",
+      "uid" : "211f3e205e743172",
+      "parentUid" : "5b346d7f925437ed338833c3bd829468",
+      "status" : "passed",
+      "time" : {
+        "start" : 1620277401768,
+        "stop" : 1620277426649,
+        "duration" : 24881
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "allow popup when download => true",
+      "uid" : "b05ac9748375dad0",
+      "parentUid" : "5b346d7f925437ed338833c3bd829468",
+      "status" : "broken",
+      "time" : {
+        "start" : 1620277426790,
+        "stop" : 1620277447305,
+        "duration" : 20515
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "cannotClickElement()",
+      "uid" : "26ff8d5e8789cfe2",
+      "parentUid" : "5b346d7f925437ed338833c3bd829468",
+      "status" : "broken",
+      "time" : {
+        "start" : 1620277447312,
+        "stop" : 1620277492147,
+        "duration" : 44835
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "5b346d7f925437ed338833c3bd829468"
+  } ],
+  "name" : "suites"
+}
