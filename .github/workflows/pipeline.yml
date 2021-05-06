@@ -1,0 +1,61 @@
+name: Selenoid Test Example
+on:
+  pull_request:
+    branches:
+      - "*"
+jobs:
+  build:
+    name: Selenoid Test
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v1
+        name: checkout
+
+      - name: run-selenoid
+        run: |
+          docker-compose up -d
+
+      - name: execute test
+        run: |
+          chmod +x ./gradlew
+          ./gradlew -Dselenoid.base.url=http://127.0.0.1:4444 -Dselenoid.path=/wd/hub \
+          clean test --tests ExampleTest
+          hostname=`echo "$GITHUB_REPOSITORY" | sed -e "s/\//.github.io\//g"`
+          echo "::set-output name=HOSTNAME::${hostname}"
+        id: execute-test
+
+      - name: get report history
+        uses: actions/checkout@v2
+        if: always()
+        continue-on-error: true
+        with:
+          ref: test-report
+          path: test-report
+
+      - name: create report with history
+        uses: simple-elf/allure-report-action@master
+        if: always()
+        id: allure-report
+        with:
+          allure_results: build/allure-results
+          gh_pages: test-report
+          allure_report: build/allure-report
+          allure_history: build/allure-history
+
+      - name: deploy to pages
+        uses: peaceiris/actions-gh-pages@v3
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: build/allure-history
+          publish_branch: test-report
+        if: always()
+
+      - name: comment to pr
+        uses: actions/github-script@0.3.0
+        if: github.event_name == 'pull_request'
+        with:
+          github-token: ${{ secrets.GITHUB_TOKEN }}
+          script: |
+            const { issue: { number: issue_number }, repo: { owner, repo }  } = context;
+            hostname=`echo "$GITHUB_REPOSITORY" | sed -e "s/\//.github.io\//g"`
+            github.issues.createComment({ issue_number, owner, repo, body: "ci-test report 👋 <br/><a href=https://${{ steps.execute-test.outputs.HOSTNAME }}/>see report</a>" });
