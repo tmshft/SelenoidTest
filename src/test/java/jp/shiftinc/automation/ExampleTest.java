@@ -71,7 +71,7 @@ class ExampleTest {
     }
 
     @Story("Example for download file")
-    @ParameterizedTest
+    @ParameterizedTest(name = "allow popup when download => {0}")
     @ValueSource(booleans = {false, true})
     void canDownloadCorrectFile(boolean allowPopup) throws IOException, InterruptedException {
         String IE_ZIP = "IEDriverServer_Win32_3.150.1.zip";
