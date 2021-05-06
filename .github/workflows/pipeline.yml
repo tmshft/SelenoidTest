@@ -42,13 +42,13 @@ jobs:
           allure_report: build/allure-report
           allure_history: build/allure-history
 
-      - name: deploy to pages
-        uses: peaceiris/actions-gh-pages@v3
-        with:
-          github_token: ${{ secrets.GITHUB_TOKEN }}
-          publish_dir: build/allure-history
-          publish_branch: test-report
-        if: always()
+#      - name: deploy to pages
+#        uses: peaceiris/actions-gh-pages@v3
+#        with:
+#          github_token: ${{ secrets.GITHUB_TOKEN }}
+#          publish_dir: build/allure-history
+#          publish_branch: test-report
+#        if: always()
 
       - name: comment to pr
         uses: actions/github-script@0.3.0
