@@ -1,0 +1,4 @@
+"Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
+"broken","Thu May 06 05:40:55 GMT 2021","Thu May 06 05:41:05 GMT 2021","10040","","jp.shiftinc.automation.ExampleTest","","jp.shiftinc.automation.ExampleTest","canDownloadCorrectFile","allow popup when download => true",""
+"broken","Thu May 06 05:41:05 GMT 2021","Thu May 06 05:41:40 GMT 2021","34782","","jp.shiftinc.automation.ExampleTest","","jp.shiftinc.automation.ExampleTest","cannotClickElement","cannotClickElement()",""
+"passed","Thu May 06 05:40:41 GMT 2021","Thu May 06 05:40:55 GMT 2021","14503","","jp.shiftinc.automation.ExampleTest","","jp.shiftinc.automation.ExampleTest","canDownloadCorrectFile","allow popup when download => false",""

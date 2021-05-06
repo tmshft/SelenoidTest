@@ -1,0 +1,52 @@
+{
+  "uid" : "b1a8273437954620fa374b796ffaacdd",
+  "children" : [ {
+    "name" : "Example for download file",
+    "children" : [ {
+      "name" : "allow popup when download => false",
+      "uid" : "6c75fd7e9df056e9",
+      "parentUid" : "716e75eb2cd69378e0322b0265e09105",
+      "status" : "passed",
+      "time" : {
+        "start" : 1620279641057,
+        "stop" : 1620279655560,
+        "duration" : 14503
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "allow popup when download => true",
+      "uid" : "15f97d0591577d38",
+      "parentUid" : "716e75eb2cd69378e0322b0265e09105",
+      "status" : "broken",
+      "time" : {
+        "start" : 1620279655704,
+        "stop" : 1620279665744,
+        "duration" : 10040
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "716e75eb2cd69378e0322b0265e09105"
+  }, {
+    "name" : "Example for failed to download(please check browser log)",
+    "children" : [ {
+      "name" : "cannotClickElement()",
+      "uid" : "7084be7fb1089123",
+      "parentUid" : "4fa7c4f0b346dca5788dd04c2853484e",
+      "status" : "broken",
+      "time" : {
+        "start" : 1620279665769,
+        "stop" : 1620279700551,
+        "duration" : 34782
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "4fa7c4f0b346dca5788dd04c2853484e"
+  } ],
+  "name" : "behaviors"
+}

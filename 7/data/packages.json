@@ -1,0 +1,48 @@
+{
+  "uid" : "83edc06c07f9ae9e47eb6dd1b683e4e2",
+  "children" : [ {
+    "name" : "jp.shiftinc.automation.ExampleTest",
+    "children" : [ {
+      "name" : "canDownloadCorrectFile",
+      "uid" : "6c75fd7e9df056e9",
+      "parentUid" : "4ac5fb943253b2399563f19353c5c67c",
+      "status" : "passed",
+      "time" : {
+        "start" : 1620279641057,
+        "stop" : 1620279655560,
+        "duration" : 14503
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "canDownloadCorrectFile",
+      "uid" : "15f97d0591577d38",
+      "parentUid" : "4ac5fb943253b2399563f19353c5c67c",
+      "status" : "broken",
+      "time" : {
+        "start" : 1620279655704,
+        "stop" : 1620279665744,
+        "duration" : 10040
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "cannotClickElement",
+      "uid" : "7084be7fb1089123",
+      "parentUid" : "4ac5fb943253b2399563f19353c5c67c",
+      "status" : "broken",
+      "time" : {
+        "start" : 1620279665769,
+        "stop" : 1620279700551,
+        "duration" : 34782
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "jp.shiftinc.automation.ExampleTest"
+  } ],
+  "name" : "packages"
+}

@@ -1,0 +1,10 @@
+[ {
+  "name" : "GitHub Actions",
+  "type" : "github",
+  "url" : "https://tmshft.github.io/SelenoidTest",
+  "buildOrder" : 7,
+  "buildName" : "GitHub Actions Run #815775301",
+  "buildUrl" : "https://github.com/tmshft/SelenoidTest/actions/runs/815775301",
+  "reportName" : "Allure Report with history",
+  "reportUrl" : "https://tmshft.github.io/SelenoidTest/7/"
+} ]
