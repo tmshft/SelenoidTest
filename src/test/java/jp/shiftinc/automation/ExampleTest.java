@@ -89,6 +89,7 @@ class ExampleTest {
         // download file
         WebElement elm = driver.findElement(By.cssSelector("a[href*=\"IEDriverServer_Win32_3\"]"));
         elm.click();
+        Thread.sleep(5000);
 
         // get file by using selenoid api
         URL url = new URL(String.format("%s/download/%s/%s", baseUrl, sessionId, IE_ZIP));
@@ -146,9 +147,8 @@ class ExampleTest {
         }
     }
 
-    File downloadFile(URL url) throws IOException, InterruptedException {
+    File downloadFile(URL url) throws IOException {
         String path = url.getPath();
-        Thread.sleep(5000);
         String downloadFile = "build/tmp/" + path.substring(path.lastIndexOf("/") + 1);
         try (DataInputStream in = new DataInputStream(url.openStream());
              DataOutputStream out = new DataOutputStream(new FileOutputStream(downloadFile))) {
