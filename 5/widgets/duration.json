@@ -1,0 +1,31 @@
+[ {
+  "uid" : "f24c044414724de0",
+  "name" : "cannotClickElement()",
+  "time" : {
+    "start" : 1620276252676,
+    "stop" : 1620276297764,
+    "duration" : 45088
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "85f4c87ca31849f3",
+  "name" : "[2] true",
+  "time" : {
+    "start" : 1620276232372,
+    "stop" : 1620276252662,
+    "duration" : 20290
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "c4b6a7e5a34fcaf0",
+  "name" : "[1] false",
+  "time" : {
+    "start" : 1620276207618,
+    "stop" : 1620276232239,
+    "duration" : 24621
+  },
+  "status" : "passed",
+  "severity" : "normal"
+} ]

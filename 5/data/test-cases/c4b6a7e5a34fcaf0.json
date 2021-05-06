@@ -1,0 +1,95 @@
+{
+  "uid" : "c4b6a7e5a34fcaf0",
+  "name" : "[1] false",
+  "fullName" : "jp.shiftinc.automation.ExampleTest.canDownloadCorrectFile",
+  "historyId" : "5ff7177e69acfe7b8791103b50c322ff",
+  "time" : {
+    "start" : 1620276207618,
+    "stop" : 1620276232239,
+    "duration" : 24621
+  },
+  "description" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "576e3d9b439376d6",
+      "name" : "img01",
+      "source" : "576e3d9b439376d6.png",
+      "type" : "image/png",
+      "size" : 100470
+    }, {
+      "uid" : "33eb66ea49365f67",
+      "name" : "IEDriverServer",
+      "source" : "33eb66ea49365f67.exe",
+      "type" : "application/octet-stream",
+      "size" : 1112869
+    }, {
+      "uid" : "bdc5138da3843fa2",
+      "name" : "video",
+      "source" : "bdc5138da3843fa2.mp4",
+      "type" : "video/mp4",
+      "size" : 120364
+    }, {
+      "uid" : "92990b914d8a52d1",
+      "name" : "browser-log-file",
+      "source" : "92990b914d8a52d1.log",
+      "type" : "text/plain",
+      "size" : 80319
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 4,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "story",
+    "value" : "Example for download file"
+  }, {
+    "name" : "host",
+    "value" : "fv-az198-412"
+  }, {
+    "name" : "thread",
+    "value" : "3422@fv-az198-412.Test worker(11)"
+  }, {
+    "name" : "framework",
+    "value" : "junit-platform"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "package",
+    "value" : "jp.shiftinc.automation.ExampleTest"
+  }, {
+    "name" : "testClass",
+    "value" : "jp.shiftinc.automation.ExampleTest"
+  }, {
+    "name" : "testMethod",
+    "value" : "canDownloadCorrectFile"
+  }, {
+    "name" : "suite",
+    "value" : "jp.shiftinc.automation.ExampleTest"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "c4b6a7e5a34fcaf0.json",
+  "parameterValues" : [ ]
+}
