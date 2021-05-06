@@ -6,6 +6,8 @@ import org.apache.commons.codec.digest.DigestUtils;
 import org.apache.commons.lang3.RandomStringUtils;
 import org.junit.jupiter.api.*;
 import org.junit.jupiter.api.extension.ExtendWith;
+import org.junit.jupiter.params.ParameterizedTest;
+import org.junit.jupiter.params.provider.ValueSource;
 import org.openqa.selenium.By;
 import org.openqa.selenium.OutputType;
 import org.openqa.selenium.WebElement;
@@ -41,20 +43,19 @@ class ExampleTest {
         nodeUrl = new URL(baseUrl + System.getProperty("selenoid.path"));
     }
 
-    @BeforeEach
-    void setUp() {
+    void setUp(Boolean allowPopup) {
         videoName = String.format("%s.mp4", RandomStringUtils.randomAlphanumeric(10));
-        driver = new RemoteWebDriver(nodeUrl, setChromeOption());
+        driver = new RemoteWebDriver(nodeUrl,setChromeOption(allowPopup));
         driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(30));
         sessionId = driver.getSessionId().toString();
     }
 
-    ChromeOptions setChromeOption() {
+    ChromeOptions setChromeOption(Boolean allowPopup) {
         ChromeOptions options = new ChromeOptions();
         Map<String, Object> prefs = new HashMap<>();
         prefs.put("profile.default_content_settings.popups", 0);
         prefs.put("download.default_directory", "/home/selenium/Downloads");
-        prefs.put("download.prompt_for_download", false);
+        prefs.put("download.prompt_for_download", allowPopup);
         options.setExperimentalOption("prefs", prefs);
         return options.merge(setCapabilities());
     }
@@ -70,10 +71,13 @@ class ExampleTest {
     }
 
     @Story("Example for download file")
-    @Test
-    void canDownloadCorrectFile() throws IOException, InterruptedException {
+    @ParameterizedTest(name = "allow popup when download => {0}")
+    @ValueSource(booleans = {false, true})
+    void canDownloadCorrectFile(boolean allowPopup) throws IOException, InterruptedException {
         String IE_ZIP = "IEDriverServer_Win32_3.150.1.zip";
         String REFER_PATH = "src/test/resources/" + IE_ZIP;
+
+        setUp(allowPopup);
 
         // store original file MD5
         assertMD5(new File(REFER_PATH), false);
@@ -95,9 +99,10 @@ class ExampleTest {
         assertMD5(download, true);
     }
 
-    @Story("Example for failed test(please check browser log)")
+    @Story("Example for failed to download(please check browser log)")
     @Test
     void cannotClickElement() throws IOException {
+        setUp(true);
         driver.get(TEST_URL);
         attachFileToReport(driver.getScreenshotAs(OutputType.FILE), "img02","image/png","png");
         driver.findElement(By.cssSelector("a[href*=\"not_exists\"]")).click();
