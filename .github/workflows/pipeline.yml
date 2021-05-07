@@ -26,16 +26,12 @@ jobs:
 
       - name: get report history
         uses: actions/checkout@v2
-        if: always()
-        continue-on-error: true
         with:
           ref: test-report
           path: test-report
 
       - name: create report with history
         uses: simple-elf/allure-report-action@master
-        if: always()
-        id: allure-report
         with:
           allure_results: build/allure-results
           gh_pages: test-report
@@ -48,7 +44,6 @@ jobs:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           publish_dir: build/allure-history
           publish_branch: test-report
-        if: always()
 
       - name: comment to pr
         uses: actions/github-script@0.3.0
