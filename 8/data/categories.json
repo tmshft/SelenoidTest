@@ -1,0 +1,43 @@
+{
+  "uid" : "4b4757e66a1912dae1a509f688f20b0f",
+  "children" : [ {
+    "name" : "Test defects",
+    "children" : [ {
+      "name" : "http://127.0.0.1:4444/download/65747a85ab4d9a98f1fdd1ac5b948b30/IEDriverServer_Win32_3.150.1.zip",
+      "children" : [ {
+        "name" : "allow popup when download => true",
+        "uid" : "35c905afc80642bd",
+        "parentUid" : "7b5742bd42598c949e870ef3cf0696e0",
+        "status" : "broken",
+        "time" : {
+          "start" : 1620384919413,
+          "stop" : 1620384929642,
+          "duration" : 10229
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "7b5742bd42598c949e870ef3cf0696e0"
+    }, {
+      "name" : "no such element: Unable to locate element: {\"method\":\"css selector\",\"selector\":\"a[href*=\"not_exists\"]\"}\n  (Session info: chrome=88.0.4324.96)\nFor documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element\nBuild info: version: '4.0.0-beta-3', revision: '5d108f9a67'\nSystem info: host: 'fv-az201-874', ip: '10.1.1.28', os.name: 'Linux', os.arch: 'amd64', os.version: '5.4.0-1046-azure', java.version: '11.0.11'\nDriver info: org.openqa.selenium.remote.RemoteWebDriver\nCommand: [e5523b7443c4590b7c81bbd6be99297a, findElement {using=css selector, value=a[href*=\"not_exists\"]}]\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 88.0.4324.96, chrome: {chromedriverVersion: 88.0.4324.27 (6347fe8bf1e48..., userDataDir: /tmp/.com.google.Chrome.YON7Go}, goog:chromeOptions: {debuggerAddress: localhost:39911}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: LINUX, platformName: LINUX, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}\nSession ID: e5523b7443c4590b7c81bbd6be99297a",
+      "children" : [ {
+        "name" : "cannotClickElement()",
+        "uid" : "4e44c506f09b3bd",
+        "parentUid" : "fba833b7f84f42edf9b262e2da2ca628",
+        "status" : "broken",
+        "time" : {
+          "start" : 1620384929673,
+          "stop" : 1620384964598,
+          "duration" : 34925
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "fba833b7f84f42edf9b262e2da2ca628"
+    } ],
+    "uid" : "bdbf199525818fae7a8651db9eafe741"
+  } ],
+  "name" : "categories"
+}
